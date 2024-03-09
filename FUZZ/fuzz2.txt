@@ -1,0 +1,1120 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://play.picoctf.org/practice?FUZZ=1
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/piyal/SecLists/Discovery/Web-Content/BurpSuite-ParamMiner/lowercase-headers
+[+] Excluded Status codes:   400,301
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in fuzzing mode
+===============================================================
+[2KFound: [Status=403] [Length=15672] [Word=Accept] https://play.picoctf.org/practice?Accept=1
+[2KFound: [Status=403] [Length=15683] [Word=Accepted] https://play.picoctf.org/practice?Accepted=1
+[2KFound: [Status=403] [Length=15754] [Word=Accept-Language] https://play.picoctf.org/practice?Accept-Language=1
+[2KFound: [Status=403] [Length=15872] [Word=Access-Control-Allow-Credentials] https://play.picoctf.org/practice?Access-Control-Allow-Credentials=1
+[2KFound: [Status=200] [Length=2466] [Word=Accept-Application] https://play.picoctf.org/practice?Accept-Application=1
+[2KFound: [Status=403] [Length=15813] [Word=Access-Control-Allow-Headers] https://play.picoctf.org/practice?Access-Control-Allow-Headers=1
+[2KFound: [Status=200] [Length=2466] [Word=Access-Control-Allow-Methods] https://play.picoctf.org/practice?Access-Control-Allow-Methods=1
+[2KFound: [Status=200] [Length=2466] [Word=Access-Control-Request-Headers] https://play.picoctf.org/practice?Access-Control-Request-Headers=1
+[2KFound: [Status=200] [Length=2466] [Word=Accept-Encoding] https://play.picoctf.org/practice?Accept-Encoding=1
+[2KFound: [Status=200] [Length=2466] [Word=Accept-Ranges] https://play.picoctf.org/practice?Accept-Ranges=1
+[2KFound: [Status=200] [Length=2466] [Word=Accept-Encodxng] https://play.picoctf.org/practice?Accept-Encodxng=1
+[2KFound: [Status=200] [Length=2466] [Word=Accept-Charset] https://play.picoctf.org/practice?Accept-Charset=1
+[2KFound: [Status=200] [Length=2466] [Word=Accept-Version] https://play.picoctf.org/practice?Accept-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=Accesskey] https://play.picoctf.org/practice?Accesskey=1
+[2KFound: [Status=200] [Length=2466] [Word=Access-Control-Allow-Origin] https://play.picoctf.org/practice?Access-Control-Allow-Origin=1
+[2KFound: [Status=200] [Length=2466] [Word=Action] https://play.picoctf.org/practice?Action=1
+[2KFound: [Status=200] [Length=2466] [Word=Admin] https://play.picoctf.org/practice?Admin=1
+[2KFound: [Status=200] [Length=2466] [Word=Access-Control-Expose-Headers] https://play.picoctf.org/practice?Access-Control-Expose-Headers=1
+[2KFound: [Status=200] [Length=2466] [Word=Age] https://play.picoctf.org/practice?Age=1
+[2KFound: [Status=200] [Length=2466] [Word=Access-Control-Max-Age] https://play.picoctf.org/practice?Access-Control-Max-Age=1
+[2KFound: [Status=200] [Length=2466] [Word=Ajax] https://play.picoctf.org/practice?Ajax=1
+[2KFound: [Status=200] [Length=2466] [Word=Allow] https://play.picoctf.org/practice?Allow=1
+[2KFound: [Status=200] [Length=2466] [Word=Akamai-Origin-Hop] https://play.picoctf.org/practice?Akamai-Origin-Hop=1
+[2KFound: [Status=200] [Length=2466] [Word=App] https://play.picoctf.org/practice?App=1
+[2KFound: [Status=200] [Length=2466] [Word=Appcookie] https://play.picoctf.org/practice?Appcookie=1
+[2KFound: [Status=200] [Length=2466] [Word=Access-Control-Request-Method] https://play.picoctf.org/practice?Access-Control-Request-Method=1
+[2KFound: [Status=200] [Length=2466] [Word=App-Env] https://play.picoctf.org/practice?App-Env=1
+[2KFound: [Status=200] [Length=2466] [Word=Apply-To-Redirect-Ref] https://play.picoctf.org/practice?Apply-To-Redirect-Ref=1
+[2KFound: [Status=200] [Length=2466] [Word=App-Key] https://play.picoctf.org/practice?App-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=Appname] https://play.picoctf.org/practice?Appname=1
+[2KFound: [Status=200] [Length=2466] [Word=Access-Token] https://play.picoctf.org/practice?Access-Token=1
+[2KFound: [Status=200] [Length=2466] [Word=Atcept-Language] https://play.picoctf.org/practice?Atcept-Language=1
+[2KFound: [Status=200] [Length=2466] [Word=Appversion] https://play.picoctf.org/practice?Appversion=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Any] https://play.picoctf.org/practice?Auth-Any=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Digest-Ie] https://play.picoctf.org/practice?Auth-Digest-Ie=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Digest] https://play.picoctf.org/practice?Auth-Digest=1
+[2KFound: [Status=200] [Length=2466] [Word=Authentication] https://play.picoctf.org/practice?Authentication=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth] https://play.picoctf.org/practice?Auth=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Basic] https://play.picoctf.org/practice?Auth-Basic=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Gssneg] https://play.picoctf.org/practice?Auth-Gssneg=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Key] https://play.picoctf.org/practice?Auth-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Ntlm] https://play.picoctf.org/practice?Auth-Ntlm=1
+[2KFound: [Status=200] [Length=2466] [Word=Authorization] https://play.picoctf.org/practice?Authorization=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Password] https://play.picoctf.org/practice?Auth-Password=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Realm] https://play.picoctf.org/practice?Auth-Realm=1
+[2KFound: [Status=200] [Length=2466] [Word=Bad-Gateway] https://play.picoctf.org/practice?Bad-Gateway=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Addr-Bcms] https://play.picoctf.org/practice?Bae-Env-Addr-Bcms=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-Type] https://play.picoctf.org/practice?Auth-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Bad-Request] https://play.picoctf.org/practice?Bad-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Addr-Bcs] https://play.picoctf.org/practice?Bae-Env-Addr-Bcs=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Addr-Channel] https://play.picoctf.org/practice?Bae-Env-Addr-Channel=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Addr-Bus] https://play.picoctf.org/practice?Bae-Env-Addr-Bus=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Addr-Sql-Ip] https://play.picoctf.org/practice?Bae-Env-Addr-Sql-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Addr-Sql-Port] https://play.picoctf.org/practice?Bae-Env-Addr-Sql-Port=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Appid] https://play.picoctf.org/practice?Bae-Env-Appid=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Sk] https://play.picoctf.org/practice?Bae-Env-Sk=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Logid] https://play.picoctf.org/practice?Bae-Logid=1
+[2KFound: [Status=200] [Length=2466] [Word=Bae-Env-Ak] https://play.picoctf.org/practice?Bae-Env-Ak=1
+[2KFound: [Status=200] [Length=2466] [Word=Bar] https://play.picoctf.org/practice?Bar=1
+[2KFound: [Status=200] [Length=2466] [Word=Auth-User] https://play.picoctf.org/practice?Auth-User=1
+[2KFound: [Status=200] [Length=2466] [Word=Base] https://play.picoctf.org/practice?Base=1
+[2KFound: [Status=200] [Length=2466] [Word=Bearer-Indication] https://play.picoctf.org/practice?Bearer-Indication=1
+[2KFound: [Status=200] [Length=2466] [Word=Base-Url] https://play.picoctf.org/practice?Base-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Basic] https://play.picoctf.org/practice?Basic=1
+[2KFound: [Status=200] [Length=2466] [Word=Body-Maxlength] https://play.picoctf.org/practice?Body-Maxlength=1
+[2KFound: [Status=200] [Length=2466] [Word=Brief] https://play.picoctf.org/practice?Brief=1
+[2KFound: [Status=200] [Length=2466] [Word=Body-Truncated] https://play.picoctf.org/practice?Body-Truncated=1
+[2KFound: [Status=200] [Length=2466] [Word=Browser-User-Agent] https://play.picoctf.org/practice?Browser-User-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=Cache-Control] https://play.picoctf.org/practice?Cache-Control=1
+[2KFound: [Status=200] [Length=2466] [Word=Cache-Info] https://play.picoctf.org/practice?Cache-Info=1
+[2KFound: [Status=200] [Length=2466] [Word=Case-Files] https://play.picoctf.org/practice?Case-Files=1
+[2KFound: [Status=200] [Length=2466] [Word=Catalog] https://play.picoctf.org/practice?Catalog=1
+[2KFound: [Status=200] [Length=2466] [Word=Category] https://play.picoctf.org/practice?Category=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Cookie] https://play.picoctf.org/practice?Cert-Cookie=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Issuer] https://play.picoctf.org/practice?Cert-Issuer=1
+[2KFound: [Status=200] [Length=2466] [Word=Catalog-Server] https://play.picoctf.org/practice?Catalog-Server=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Keysize] https://play.picoctf.org/practice?Cert-Keysize=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Flags] https://play.picoctf.org/practice?Cert-Flags=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Secretkeysize] https://play.picoctf.org/practice?Cert-Secretkeysize=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Serialnumber] https://play.picoctf.org/practice?Cert-Serialnumber=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Server-Issuer] https://play.picoctf.org/practice?Cert-Server-Issuer=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Subject] https://play.picoctf.org/practice?Cert-Subject=1
+[2KFound: [Status=200] [Length=2466] [Word=Cert-Server-Subject] https://play.picoctf.org/practice?Cert-Server-Subject=1
+[2KFound: [Status=200] [Length=2466] [Word=Cf-Template-Path] https://play.picoctf.org/practice?Cf-Template-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Cf-Ipcountry] https://play.picoctf.org/practice?Cf-Ipcountry=1
+[2KFound: [Status=200] [Length=2466] [Word=Cf-Visitor] https://play.picoctf.org/practice?Cf-Visitor=1
+[2KFound: [Status=200] [Length=2466] [Word=Ch] https://play.picoctf.org/practice?Ch=1
+[2KFound: [Status=200] [Length=2466] [Word=Challenge-Response] https://play.picoctf.org/practice?Challenge-Response=1
+[2KFound: [Status=200] [Length=2466] [Word=Charset] https://play.picoctf.org/practice?Charset=1
+[2KFound: [Status=200] [Length=2466] [Word=Chunk-Size] https://play.picoctf.org/practice?Chunk-Size=1
+[2KFound: [Status=200] [Length=2466] [Word=Client] https://play.picoctf.org/practice?Client=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Bad-Request] https://play.picoctf.org/practice?Client-Bad-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Conflict] https://play.picoctf.org/practice?Client-Conflict=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Cannot-Access-Local-File] https://play.picoctf.org/practice?Client-Error-Cannot-Access-Local-File=1
+[2KFound: [Status=200] [Length=2466] [Word=Clientaddress] https://play.picoctf.org/practice?Clientaddress=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Cannot-Connect] https://play.picoctf.org/practice?Client-Error-Cannot-Connect=1
+[2KFound: [Status=200] [Length=2466] [Word=Cf-Connecting-Ip] https://play.picoctf.org/practice?Cf-Connecting-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Communication-Failure] https://play.picoctf.org/practice?Client-Error-Communication-Failure=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Connect] https://play.picoctf.org/practice?Client-Error-Connect=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Invalid-Parameters] https://play.picoctf.org/practice?Client-Error-Invalid-Parameters=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Invalid-Server-Address] https://play.picoctf.org/practice?Client-Error-Invalid-Server-Address=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-No-Error] https://play.picoctf.org/practice?Client-Error-No-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Protocol-Failure] https://play.picoctf.org/practice?Client-Error-Protocol-Failure=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Error-Unspecified-Error] https://play.picoctf.org/practice?Client-Error-Unspecified-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Expectation-Failed] https://play.picoctf.org/practice?Client-Expectation-Failed=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Forbidden] https://play.picoctf.org/practice?Client-Forbidden=1
+[2KFound: [Status=200] [Length=2466] [Word=Clientip] https://play.picoctf.org/practice?Clientip=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Gone] https://play.picoctf.org/practice?Client-Gone=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Address] https://play.picoctf.org/practice?Client-Address=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Ip] https://play.picoctf.org/practice?Client-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Length-Required] https://play.picoctf.org/practice?Client-Length-Required=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Not-Found] https://play.picoctf.org/practice?Client-Not-Found=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Not-Acceptable] https://play.picoctf.org/practice?Client-Not-Acceptable=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Method-Not-Allowed] https://play.picoctf.org/practice?Client-Method-Not-Allowed=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Payment-Required] https://play.picoctf.org/practice?Client-Payment-Required=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Precondition-Failed] https://play.picoctf.org/practice?Client-Precondition-Failed=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Proxy-Auth-Required] https://play.picoctf.org/practice?Client-Proxy-Auth-Required=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Quirk-Mode] https://play.picoctf.org/practice?Client-Quirk-Mode=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Requested-Range-Not-Possible] https://play.picoctf.org/practice?Client-Requested-Range-Not-Possible=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Unauthorized] https://play.picoctf.org/practice?Client-Unauthorized=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Request-Timeout] https://play.picoctf.org/practice?Client-Request-Timeout=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Request-Too-Large] https://play.picoctf.org/practice?Client-Request-Too-Large=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Request-Uri-Too-Large] https://play.picoctf.org/practice?Client-Request-Uri-Too-Large=1
+[2KFound: [Status=200] [Length=2466] [Word=Client-Unsupported-Media-Type] https://play.picoctf.org/practice?Client-Unsupported-Media-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Cloudfront-Viewer-Country] https://play.picoctf.org/practice?Cloudfront-Viewer-Country=1
+[2KFound: [Status=200] [Length=2466] [Word=Cloudinary-Name] https://play.picoctf.org/practice?Cloudinary-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=Cloudinary-Public-Id] https://play.picoctf.org/practice?Cloudinary-Public-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=Cloudinaryurl] https://play.picoctf.org/practice?Cloudinaryurl=1
+[2KFound: [Status=200] [Length=2466] [Word=Cloudinary-Version] https://play.picoctf.org/practice?Cloudinary-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=Coming-From] https://play.picoctf.org/practice?Coming-From=1
+[2KFound: [Status=200] [Length=2466] [Word=Code] https://play.picoctf.org/practice?Code=1
+[2KFound: [Status=200] [Length=2466] [Word=Compress] https://play.picoctf.org/practice?Compress=1
+[2KFound: [Status=200] [Length=2466] [Word=Conflict] https://play.picoctf.org/practice?Conflict=1
+[2KFound: [Status=200] [Length=2466] [Word=Connection] https://play.picoctf.org/practice?Connection=1
+[2KFound: [Status=200] [Length=2466] [Word=Connection-Type] https://play.picoctf.org/practice?Connection-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Contact] https://play.picoctf.org/practice?Contact=1
+[2KFound: [Status=200] [Length=2466] [Word=Content] https://play.picoctf.org/practice?Content=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Disposition] https://play.picoctf.org/practice?Content-Disposition=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Encoding] https://play.picoctf.org/practice?Content-Encoding=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Language] https://play.picoctf.org/practice?Content-Language=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Length] https://play.picoctf.org/practice?Content-Length=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Location] https://play.picoctf.org/practice?Content-Location=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Md5] https://play.picoctf.org/practice?Content-Md5=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Range] https://play.picoctf.org/practice?Content-Range=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Security-Policy] https://play.picoctf.org/practice?Content-Security-Policy=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Security-Policy-Report-Only] https://play.picoctf.org/practice?Content-Security-Policy-Report-Only=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Type] https://play.picoctf.org/practice?Content-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Content-Type-Xhtml] https://play.picoctf.org/practice?Content-Type-Xhtml=1
+[2KFound: [Status=200] [Length=2466] [Word=Continue] https://play.picoctf.org/practice?Continue=1
+[2KFound: [Status=200] [Length=2466] [Word=Context-Path] https://play.picoctf.org/practice?Context-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie] https://play.picoctf.org/practice?Cookie=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie2] https://play.picoctf.org/practice?Cookie2=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie-Domain] https://play.picoctf.org/practice?Cookie-Domain=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie-Parse-Raw] https://play.picoctf.org/practice?Cookie-Parse-Raw=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie-Httponly] https://play.picoctf.org/practice?Cookie-Httponly=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookies] https://play.picoctf.org/practice?Cookies=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie-Path] https://play.picoctf.org/practice?Cookie-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie-Secure] https://play.picoctf.org/practice?Cookie-Secure=1
+[2KFound: [Status=200] [Length=2466] [Word=Cookie-Vars] https://play.picoctf.org/practice?Cookie-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Core-Base] https://play.picoctf.org/practice?Core-Base=1
+[2KFound: [Status=200] [Length=2466] [Word=Created] https://play.picoctf.org/practice?Created=1
+[2KFound: [Status=200] [Length=2466] [Word=Credentials-Filepath] https://play.picoctf.org/practice?Credentials-Filepath=1
+[2KFound: [Status=200] [Length=2466] [Word=Curl] https://play.picoctf.org/practice?Curl=1
+[2KFound: [Status=200] [Length=2466] [Word=Curl-Multithreaded] https://play.picoctf.org/practice?Curl-Multithreaded=1
+[2KFound: [Status=200] [Length=2466] [Word=Custom-Header] https://play.picoctf.org/practice?Custom-Header=1
+[2KFound: [Status=200] [Length=2466] [Word=Custom-Secret-Header] https://play.picoctf.org/practice?Custom-Secret-Header=1
+[2KFound: [Status=200] [Length=2466] [Word=Debug] https://play.picoctf.org/practice?Debug=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Strategy-Huff] https://play.picoctf.org/practice?Deflate-Strategy-Huff=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Level-Def] https://play.picoctf.org/practice?Deflate-Level-Def=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Strategy-Fixed] https://play.picoctf.org/practice?Deflate-Strategy-Fixed=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Strategy-Filt] https://play.picoctf.org/practice?Deflate-Strategy-Filt=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Level-Min] https://play.picoctf.org/practice?Deflate-Level-Min=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Strategy-Def] https://play.picoctf.org/practice?Deflate-Strategy-Def=1
+[2KFound: [Status=200] [Length=2466] [Word=Dataserviceversion] https://play.picoctf.org/practice?Dataserviceversion=1
+[2KFound: [Status=200] [Length=2466] [Word=Date] https://play.picoctf.org/practice?Date=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Level-Max] https://play.picoctf.org/practice?Deflate-Level-Max=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Type-Gzip] https://play.picoctf.org/practice?Deflate-Type-Gzip=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Strategy-Rle] https://play.picoctf.org/practice?Deflate-Strategy-Rle=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Type-Zlib] https://play.picoctf.org/practice?Deflate-Type-Zlib=1
+[2KFound: [Status=200] [Length=2466] [Word=Devblocksproxyhost] https://play.picoctf.org/practice?Devblocksproxyhost=1
+[2KFound: [Status=200] [Length=2466] [Word=Destination] https://play.picoctf.org/practice?Destination=1
+[2KFound: [Status=200] [Length=2466] [Word=Depth] https://play.picoctf.org/practice?Depth=1
+[2KFound: [Status=200] [Length=2466] [Word=Deflate-Type-Raw] https://play.picoctf.org/practice?Deflate-Type-Raw=1
+[2KFound: [Status=200] [Length=2466] [Word=Delete] https://play.picoctf.org/practice?Delete=1
+[2KFound: [Status=200] [Length=2466] [Word=Devblocksproxybase] https://play.picoctf.org/practice?Devblocksproxybase=1
+[2KFound: [Status=200] [Length=2466] [Word=Destroy] https://play.picoctf.org/practice?Destroy=1
+[2KFound: [Status=200] [Length=2466] [Word=Devblocksproxyssl] https://play.picoctf.org/practice?Devblocksproxyssl=1
+[2KFound: [Status=200] [Length=2466] [Word=Device-Stock-Ua] https://play.picoctf.org/practice?Device-Stock-Ua=1
+[2KFound: [Status=200] [Length=2466] [Word=Digest] https://play.picoctf.org/practice?Digest=1
+[2KFound: [Status=200] [Length=2466] [Word=Dir] https://play.picoctf.org/practice?Dir=1
+[2KFound: [Status=200] [Length=2466] [Word=Disable-Gzip] https://play.picoctf.org/practice?Disable-Gzip=1
+[2KFound: [Status=200] [Length=2466] [Word=Dkim-Signature] https://play.picoctf.org/practice?Dkim-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=Dir-Resource] https://play.picoctf.org/practice?Dir-Resource=1
+[2KFound: [Status=200] [Length=2466] [Word=Dir-Name] https://play.picoctf.org/practice?Dir-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Attachment] https://play.picoctf.org/practice?Download-Attachment=1
+[2KFound: [Status=200] [Length=2466] [Word=Dnt] https://play.picoctf.org/practice?Dnt=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Bad-Url] https://play.picoctf.org/practice?Download-Bad-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Bz2] https://play.picoctf.org/practice?Download-Bz2=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-Headers-Sent] https://play.picoctf.org/practice?Download-E-Headers-Sent=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-Invalid-Archive-Type] https://play.picoctf.org/practice?Download-E-Invalid-Archive-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Cut-Short] https://play.picoctf.org/practice?Download-Cut-Short=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-Invalid-Content-Type] https://play.picoctf.org/practice?Download-E-Invalid-Content-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-Invalid-Request] https://play.picoctf.org/practice?Download-E-Invalid-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-Invalid-Param] https://play.picoctf.org/practice?Download-E-Invalid-Param=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-Invalid-Resource] https://play.picoctf.org/practice?Download-E-Invalid-Resource=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-No-Ext-Mmagic] https://play.picoctf.org/practice?Download-E-No-Ext-Mmagic=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-No-Ext-Zlib] https://play.picoctf.org/practice?Download-E-No-Ext-Zlib=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Inline] https://play.picoctf.org/practice?Download-Inline=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-No-Server] https://play.picoctf.org/practice?Download-No-Server=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Mime-Type] https://play.picoctf.org/practice?Download-Mime-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Size] https://play.picoctf.org/practice?Download-Size=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Status-Not-Found] https://play.picoctf.org/practice?Download-Status-Not-Found=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Status-Server-Error] https://play.picoctf.org/practice?Download-Status-Server-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Status-Unauthorized] https://play.picoctf.org/practice?Download-Status-Unauthorized=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Status-Unknown] https://play.picoctf.org/practice?Download-Status-Unknown=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Tar] https://play.picoctf.org/practice?Download-Tar=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Tgz] https://play.picoctf.org/practice?Download-Tgz=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Zip] https://play.picoctf.org/practice?Download-Zip=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-Url] https://play.picoctf.org/practice?Download-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Download-E-Invalid-File] https://play.picoctf.org/practice?Download-E-Invalid-File=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Encoding] https://play.picoctf.org/practice?E-Encoding=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Header] https://play.picoctf.org/practice?E-Header=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Invalid-Param] https://play.picoctf.org/practice?E-Invalid-Param=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Malformed-Headers] https://play.picoctf.org/practice?E-Malformed-Headers=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Message-Type] https://play.picoctf.org/practice?E-Message-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Enable-Gzip] https://play.picoctf.org/practice?Enable-Gzip=1
+[2KFound: [Status=200] [Length=2466] [Word=Enable-No-Cache-Headers] https://play.picoctf.org/practice?Enable-No-Cache-Headers=1
+[2KFound: [Status=200] [Length=2466] [Word=Encoding-Stream-Flush-Full] https://play.picoctf.org/practice?Encoding-Stream-Flush-Full=1
+[2KFound: [Status=200] [Length=2466] [Word=Env-Silla-Environment] https://play.picoctf.org/practice?Env-Silla-Environment=1
+[2KFound: [Status=200] [Length=2466] [Word=Encoding-Stream-Flush-Sync] https://play.picoctf.org/practice?Encoding-Stream-Flush-Sync=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Request-Method] https://play.picoctf.org/practice?E-Request-Method=1
+[2KFound: [Status=200] [Length=2466] [Word=Env-Vars] https://play.picoctf.org/practice?Env-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Encoding-Stream-Flush-None] https://play.picoctf.org/practice?Encoding-Stream-Flush-None=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Request] https://play.picoctf.org/practice?E-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Querystring] https://play.picoctf.org/practice?E-Querystring=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Request-Pool] https://play.picoctf.org/practice?E-Request-Pool=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Response] https://play.picoctf.org/practice?E-Response=1
+[2KFound: [Status=200] [Length=2466] [Word=Error] https://play.picoctf.org/practice?Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Error-1] https://play.picoctf.org/practice?Error-1=1
+[2KFound: [Status=200] [Length=2466] [Word=Error-2] https://play.picoctf.org/practice?Error-2=1
+[2KFound: [Status=200] [Length=2466] [Word=Error-3] https://play.picoctf.org/practice?Error-3=1
+[2KFound: [Status=200] [Length=2466] [Word=Error-Formatting-Html] https://play.picoctf.org/practice?Error-Formatting-Html=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Runtime] https://play.picoctf.org/practice?E-Runtime=1
+[2KFound: [Status=200] [Length=2466] [Word=Espo-Authorization] https://play.picoctf.org/practice?Espo-Authorization=1
+[2KFound: [Status=200] [Length=2466] [Word=Error-4] https://play.picoctf.org/practice?Error-4=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Socket] https://play.picoctf.org/practice?E-Socket=1
+[2KFound: [Status=200] [Length=2466] [Word=Espo-Cgi-Auth] https://play.picoctf.org/practice?Espo-Cgi-Auth=1
+[2KFound: [Status=200] [Length=2466] [Word=Etag] https://play.picoctf.org/practice?Etag=1
+[2KFound: [Status=200] [Length=2466] [Word=E-Url] https://play.picoctf.org/practice?E-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Eve-Charid] https://play.picoctf.org/practice?Eve-Charid=1
+[2KFound: [Status=200] [Length=2466] [Word=Eve-Charname] https://play.picoctf.org/practice?Eve-Charname=1
+[2KFound: [Status=200] [Length=2466] [Word=Eve-Trusted] https://play.picoctf.org/practice?Eve-Trusted=1
+[2KFound: [Status=200] [Length=2466] [Word=Eve-Solarsystemid] https://play.picoctf.org/practice?Eve-Solarsystemid=1
+[2KFound: [Status=200] [Length=2466] [Word=Ex-Copy-Movie] https://play.picoctf.org/practice?Ex-Copy-Movie=1
+[2KFound: [Status=200] [Length=2466] [Word=Eve-Solarsystemname] https://play.picoctf.org/practice?Eve-Solarsystemname=1
+[2KFound: [Status=200] [Length=2466] [Word=Expect] https://play.picoctf.org/practice?Expect=1
+[2KFound: [Status=200] [Length=2466] [Word=Expectation-Failed] https://play.picoctf.org/practice?Expectation-Failed=1
+[2KFound: [Status=200] [Length=2466] [Word=Expires] https://play.picoctf.org/practice?Expires=1
+[2KFound: [Status=200] [Length=2466] [Word=Ext] https://play.picoctf.org/practice?Ext=1
+[2KFound: [Status=200] [Length=2466] [Word=Fake-Header] https://play.picoctf.org/practice?Fake-Header=1
+[2KFound: [Status=200] [Length=2466] [Word=Failed-Dependency] https://play.picoctf.org/practice?Failed-Dependency=1
+[2KFound: [Status=200] [Length=2466] [Word=Fastly-Client-Ip] https://play.picoctf.org/practice?Fastly-Client-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Fb-Appid] https://play.picoctf.org/practice?Fb-Appid=1
+[2KFound: [Status=200] [Length=2466] [Word=Fb-Secret] https://play.picoctf.org/practice?Fb-Secret=1
+[2KFound: [Status=200] [Length=2466] [Word=Filename] https://play.picoctf.org/practice?Filename=1
+[2KFound: [Status=200] [Length=2466] [Word=File-Not-Found] https://play.picoctf.org/practice?File-Not-Found=1
+[2KFound: [Status=200] [Length=2466] [Word=Files] https://play.picoctf.org/practice?Files=1
+[2KFound: [Status=200] [Length=2466] [Word=Files-Vars] https://play.picoctf.org/practice?Files-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Fire-Breathing-Dragon] https://play.picoctf.org/practice?Fire-Breathing-Dragon=1
+[2KFound: [Status=200] [Length=2466] [Word=Foo] https://play.picoctf.org/practice?Foo=1
+[2KFound: [Status=200] [Length=2466] [Word=Foo-Bar] https://play.picoctf.org/practice?Foo-Bar=1
+[2KFound: [Status=200] [Length=2466] [Word=Forbidden] https://play.picoctf.org/practice?Forbidden=1
+[2KFound: [Status=200] [Length=2466] [Word=Force-Language] https://play.picoctf.org/practice?Force-Language=1
+[2KFound: [Status=200] [Length=2466] [Word=Force-Local-Xhprof] https://play.picoctf.org/practice?Force-Local-Xhprof=1
+[2KFound: [Status=200] [Length=2466] [Word=Format] https://play.picoctf.org/practice?Format=1
+[2KFound: [Status=200] [Length=2466] [Word=Forwarded] https://play.picoctf.org/practice?Forwarded=1
+[2KFound: [Status=200] [Length=2466] [Word=Forwarded-For] https://play.picoctf.org/practice?Forwarded-For=1
+[2KFound: [Status=200] [Length=2466] [Word=Forwarded-For-Ip] https://play.picoctf.org/practice?Forwarded-For-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Forwarded-Proto] https://play.picoctf.org/practice?Forwarded-Proto=1
+[2KFound: [Status=200] [Length=2466] [Word=From] https://play.picoctf.org/practice?From=1
+[2KFound: [Status=200] [Length=2466] [Word=Fromlink] https://play.picoctf.org/practice?Fromlink=1
+[2KFound: [Status=200] [Length=2466] [Word=Front-End-Https] https://play.picoctf.org/practice?Front-End-Https=1
+[2KFound: [Status=200] [Length=2466] [Word=Gateway-Interface] https://play.picoctf.org/practice?Gateway-Interface=1
+[2KFound: [Status=200] [Length=2466] [Word=Gateway-Time-Out] https://play.picoctf.org/practice?Gateway-Time-Out=1
+[2KFound: [Status=200] [Length=2466] [Word=Get] https://play.picoctf.org/practice?Get=1
+[2KFound: [Status=200] [Length=2466] [Word=Get-Vars] https://play.picoctf.org/practice?Get-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Givenname] https://play.picoctf.org/practice?Givenname=1
+[2KFound: [Status=200] [Length=2466] [Word=Global-All] https://play.picoctf.org/practice?Global-All=1
+[2KFound: [Status=200] [Length=2466] [Word=Global-Cookie] https://play.picoctf.org/practice?Global-Cookie=1
+[2KFound: [Status=200] [Length=2466] [Word=Global-Get] https://play.picoctf.org/practice?Global-Get=1
+[2KFound: [Status=200] [Length=2466] [Word=Global-Post] https://play.picoctf.org/practice?Global-Post=1
+[2KFound: [Status=200] [Length=2466] [Word=Gone] https://play.picoctf.org/practice?Gone=1
+[2KFound: [Status=200] [Length=2466] [Word=Google-Code-Project-Hosting-Hook-Hmac] https://play.picoctf.org/practice?Google-Code-Project-Hosting-Hook-Hmac=1
+[2KFound: [Status=200] [Length=2466] [Word=Header-Lf] https://play.picoctf.org/practice?Header-Lf=1
+[2KFound: [Status=200] [Length=2466] [Word=Gzip-Level] https://play.picoctf.org/practice?Gzip-Level=1
+[2KFound: [Status=200] [Length=2466] [Word=H0st] https://play.picoctf.org/practice?H0st=1
+[2KFound: [Status=200] [Length=2466] [Word=Head] https://play.picoctf.org/practice?Head=1
+[2KFound: [Status=200] [Length=2466] [Word=Header] https://play.picoctf.org/practice?Header=1
+[2KFound: [Status=200] [Length=2466] [Word=Header-Status-Client-Error] https://play.picoctf.org/practice?Header-Status-Client-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Header-Status-Informational] https://play.picoctf.org/practice?Header-Status-Informational=1
+[2KFound: [Status=200] [Length=2466] [Word=Header-Status-Redirect] https://play.picoctf.org/practice?Header-Status-Redirect=1
+[2KFound: [Status=200] [Length=2466] [Word=Header-Status-Server-Error] https://play.picoctf.org/practice?Header-Status-Server-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Header-Status-Successful] https://play.picoctf.org/practice?Header-Status-Successful=1
+[2KFound: [Status=200] [Length=2466] [Word=Home] https://play.picoctf.org/practice?Home=1
+[2KFound: [Status=200] [Length=2466] [Word=Hosti] https://play.picoctf.org/practice?Hosti=1
+[2KFound: [Status=200] [Length=2466] [Word=Host] https://play.picoctf.org/practice?Host=1
+[2KFound: [Status=200] [Length=2466] [Word=Host-Name] https://play.picoctf.org/practice?Host-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=Host-Liveserver] https://play.picoctf.org/practice?Host-Liveserver=1
+[2KFound: [Status=200] [Length=2466] [Word=Host-Unavailable] https://play.picoctf.org/practice?Host-Unavailable=1
+[2KFound: [Status=200] [Length=2466] [Word=Htaccess] https://play.picoctf.org/practice?Htaccess=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Accept] https://play.picoctf.org/practice?Http-Accept=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Accept-Encoding] https://play.picoctf.org/practice?Http-Accept-Encoding=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Authorization] https://play.picoctf.org/practice?Http-Authorization=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Accept-Language] https://play.picoctf.org/practice?Http-Accept-Language=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Cookie] https://play.picoctf.org/practice?Http-Cookie=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Connection] https://play.picoctf.org/practice?Http-Connection=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Host] https://play.picoctf.org/practice?Http-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Phone-Number] https://play.picoctf.org/practice?Http-Phone-Number=1
+[2KFound: [Status=200] [Length=2466] [Word=Https] https://play.picoctf.org/practice?Https=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Referer] https://play.picoctf.org/practice?Http-Referer=1
+[2KFound: [Status=200] [Length=2466] [Word=Https-From-Lb] https://play.picoctf.org/practice?Https-From-Lb=1
+[2KFound: [Status=200] [Length=2466] [Word=Https-Keysize] https://play.picoctf.org/practice?Https-Keysize=1
+[2KFound: [Status=200] [Length=2466] [Word=Https-Secretkeysize] https://play.picoctf.org/practice?Https-Secretkeysize=1
+[2KFound: [Status=200] [Length=2466] [Word=Https-Server-Issuer] https://play.picoctf.org/practice?Https-Server-Issuer=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-Url] https://play.picoctf.org/practice?Http-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Https-Server-Subject] https://play.picoctf.org/practice?Https-Server-Subject=1
+[2KFound: [Status=200] [Length=2466] [Word=If] https://play.picoctf.org/practice?If=1
+[2KFound: [Status=200] [Length=2466] [Word=Http-User-Agent] https://play.picoctf.org/practice?Http-User-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=If-Match] https://play.picoctf.org/practice?If-Match=1
+[2KFound: [Status=200] [Length=2466] [Word=If-Modified-Since] https://play.picoctf.org/practice?If-Modified-Since=1
+[2KFound: [Status=200] [Length=2466] [Word=If-Modified-Since-Version] https://play.picoctf.org/practice?If-Modified-Since-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=If-None-Match] https://play.picoctf.org/practice?If-None-Match=1
+[2KFound: [Status=200] [Length=2466] [Word=If-Range] https://play.picoctf.org/practice?If-Range=1
+[2KFound: [Status=200] [Length=2466] [Word=If-Posted-Before] https://play.picoctf.org/practice?If-Posted-Before=1
+[2KFound: [Status=200] [Length=2466] [Word=If-Unmodified-Since] https://play.picoctf.org/practice?If-Unmodified-Since=1
+[2KFound: [Status=200] [Length=2466] [Word=If-Unmodified-Since-Version] https://play.picoctf.org/practice?If-Unmodified-Since-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=Image] https://play.picoctf.org/practice?Image=1
+[2KFound: [Status=200] [Length=2466] [Word=Incap-Client-Ip] https://play.picoctf.org/practice?Incap-Client-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Info] https://play.picoctf.org/practice?Info=1
+[2KFound: [Status=200] [Length=2466] [Word=Images] https://play.picoctf.org/practice?Images=1
+[2KFound: [Status=200] [Length=2466] [Word=Info-Download-Size] https://play.picoctf.org/practice?Info-Download-Size=1
+[2KFound: [Status=200] [Length=2466] [Word=Info-Download-Time] https://play.picoctf.org/practice?Info-Download-Time=1
+[2KFound: [Status=200] [Length=2466] [Word=Info-Return-Code] https://play.picoctf.org/practice?Info-Return-Code=1
+[2KFound: [Status=200] [Length=2466] [Word=Info-Total-Request-Stat] https://play.picoctf.org/practice?Info-Total-Request-Stat=1
+[2KFound: [Status=200] [Length=2466] [Word=Info-Total-Response-Stat] https://play.picoctf.org/practice?Info-Total-Response-Stat=1
+[2KFound: [Status=200] [Length=2466] [Word=Ipresolve-Any] https://play.picoctf.org/practice?Ipresolve-Any=1
+[2KFound: [Status=200] [Length=2466] [Word=Internal-Server-Error] https://play.picoctf.org/practice?Internal-Server-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Insufficient-Storage] https://play.picoctf.org/practice?Insufficient-Storage=1
+[2KFound: [Status=200] [Length=2466] [Word=Ischedule-Version] https://play.picoctf.org/practice?Ischedule-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=Ipresolve-V4] https://play.picoctf.org/practice?Ipresolve-V4=1
+[2KFound: [Status=200] [Length=2466] [Word=Ipresolve-V6] https://play.picoctf.org/practice?Ipresolve-V6=1
+[2KFound: [Status=200] [Length=2466] [Word=Iv-Groups] https://play.picoctf.org/practice?Iv-Groups=1
+[2KFound: [Status=200] [Length=2466] [Word=Iv-User] https://play.picoctf.org/practice?Iv-User=1
+[2KFound: [Status=200] [Length=2466] [Word=Javascript] https://play.picoctf.org/practice?Javascript=1
+[2KFound: [Status=200] [Length=2466] [Word=Jenkins] https://play.picoctf.org/practice?Jenkins=1
+[2KFound: [Status=200] [Length=2466] [Word=Keep-Alive] https://play.picoctf.org/practice?Keep-Alive=1
+[2KFound: [Status=200] [Length=2466] [Word=Large-Allocation] https://play.picoctf.org/practice?Large-Allocation=1
+[2KFound: [Status=200] [Length=2466] [Word=Label] https://play.picoctf.org/practice?Label=1
+[2KFound: [Status=200] [Length=2466] [Word=Kiss-Rpc] https://play.picoctf.org/practice?Kiss-Rpc=1
+[2KFound: [Status=200] [Length=2466] [Word=Last-Event-Id] https://play.picoctf.org/practice?Last-Event-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=Last-Modified] https://play.picoctf.org/practice?Last-Modified=1
+[2KFound: [Status=200] [Length=2466] [Word=Length-Required] https://play.picoctf.org/practice?Length-Required=1
+[2KFound: [Status=200] [Length=2466] [Word=Link] https://play.picoctf.org/practice?Link=1
+[2KFound: [Status=200] [Length=2466] [Word=Local-Addr] https://play.picoctf.org/practice?Local-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=Local-Content-Sha1] https://play.picoctf.org/practice?Local-Content-Sha1=1
+[2KFound: [Status=200] [Length=2466] [Word=Local-Dir] https://play.picoctf.org/practice?Local-Dir=1
+[2KFound: [Status=200] [Length=2466] [Word=Location] https://play.picoctf.org/practice?Location=1
+[2KFound: [Status=200] [Length=2466] [Word=Lock-Token] https://play.picoctf.org/practice?Lock-Token=1
+[2KFound: [Status=200] [Length=2466] [Word=Mail] https://play.picoctf.org/practice?Mail=1
+[2KFound: [Status=200] [Length=2466] [Word=Maxdataserviceversion] https://play.picoctf.org/practice?Maxdataserviceversion=1
+[2KFound: [Status=200] [Length=2466] [Word=Locked] https://play.picoctf.org/practice?Locked=1
+[2KFound: [Status=200] [Length=2466] [Word=Max-Conn] https://play.picoctf.org/practice?Max-Conn=1
+[2KFound: [Status=200] [Length=2466] [Word=Max-Forwards] https://play.picoctf.org/practice?Max-Forwards=1
+[2KFound: [Status=200] [Length=2466] [Word=Max-Uri-Length] https://play.picoctf.org/practice?Max-Uri-Length=1
+[2KFound: [Status=200] [Length=2466] [Word=Max-Request-Size] https://play.picoctf.org/practice?Max-Request-Size=1
+[2KFound: [Status=200] [Length=2466] [Word=Message] https://play.picoctf.org/practice?Message=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Baseline-Control] https://play.picoctf.org/practice?Meth-Baseline-Control=1
+[2KFound: [Status=200] [Length=2466] [Word=Message-B] https://play.picoctf.org/practice?Message-B=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Checkout] https://play.picoctf.org/practice?Meth-Checkout=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-] https://play.picoctf.org/practice?Meth-=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Acl] https://play.picoctf.org/practice?Meth-Acl=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Checkin] https://play.picoctf.org/practice?Meth-Checkin=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Connect] https://play.picoctf.org/practice?Meth-Connect=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Copy] https://play.picoctf.org/practice?Meth-Copy=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Get] https://play.picoctf.org/practice?Meth-Get=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Delete] https://play.picoctf.org/practice?Meth-Delete=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Head] https://play.picoctf.org/practice?Meth-Head=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Mkactivity] https://play.picoctf.org/practice?Meth-Mkactivity=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Lock] https://play.picoctf.org/practice?Meth-Lock=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Label] https://play.picoctf.org/practice?Meth-Label=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Mkcol] https://play.picoctf.org/practice?Meth-Mkcol=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Merge] https://play.picoctf.org/practice?Meth-Merge=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Mkworkspace] https://play.picoctf.org/practice?Meth-Mkworkspace=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Move] https://play.picoctf.org/practice?Meth-Move=1
+[2KFound: [Status=200] [Length=2466] [Word=Method] https://play.picoctf.org/practice?Method=1
+[2KFound: [Status=200] [Length=2466] [Word=Method-Not-Allowed] https://play.picoctf.org/practice?Method-Not-Allowed=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Post] https://play.picoctf.org/practice?Meth-Post=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Options] https://play.picoctf.org/practice?Meth-Options=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Propfind] https://play.picoctf.org/practice?Meth-Propfind=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Report] https://play.picoctf.org/practice?Meth-Report=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Put] https://play.picoctf.org/practice?Meth-Put=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Proppatch] https://play.picoctf.org/practice?Meth-Proppatch=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Trace] https://play.picoctf.org/practice?Meth-Trace=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Unlock] https://play.picoctf.org/practice?Meth-Unlock=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Uncheckout] https://play.picoctf.org/practice?Meth-Uncheckout=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Update] https://play.picoctf.org/practice?Meth-Update=1
+[2KFound: [Status=200] [Length=2466] [Word=Meth-Version-Control] https://play.picoctf.org/practice?Meth-Version-Control=1
+[2KFound: [Status=200] [Length=2466] [Word=Mimetype] https://play.picoctf.org/practice?Mimetype=1
+[2KFound: [Status=200] [Length=2466] [Word=Modauth] https://play.picoctf.org/practice?Modauth=1
+[2KFound: [Status=200] [Length=2466] [Word=Mode] https://play.picoctf.org/practice?Mode=1
+[2KFound: [Status=200] [Length=2466] [Word=Mod-Rewrite] https://play.picoctf.org/practice?Mod-Rewrite=1
+[2KFound: [Status=200] [Length=2466] [Word=Mod-Env] https://play.picoctf.org/practice?Mod-Env=1
+[2KFound: [Status=200] [Length=2466] [Word=Mod-Security-Message] https://play.picoctf.org/practice?Mod-Security-Message=1
+[2KFound: [Status=200] [Length=2466] [Word=Module-Class] https://play.picoctf.org/practice?Module-Class=1
+[2KFound: [Status=200] [Length=2466] [Word=Module-Class-Path] https://play.picoctf.org/practice?Module-Class-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Moved-Permanently] https://play.picoctf.org/practice?Moved-Permanently=1
+[2KFound: [Status=200] [Length=2466] [Word=Msg-Request] https://play.picoctf.org/practice?Msg-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=Module-Name] https://play.picoctf.org/practice?Module-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=Ms-Asprotocolversion] https://play.picoctf.org/practice?Ms-Asprotocolversion=1
+[2KFound: [Status=200] [Length=2466] [Word=Moved-Temporarily] https://play.picoctf.org/practice?Moved-Temporarily=1
+[2KFound: [Status=200] [Length=2466] [Word=Msg-None] https://play.picoctf.org/practice?Msg-None=1
+[2KFound: [Status=200] [Length=2466] [Word=Msg-Response] https://play.picoctf.org/practice?Msg-Response=1
+[2KFound: [Status=200] [Length=2466] [Word=Msisdn] https://play.picoctf.org/practice?Msisdn=1
+[2KFound: [Status=200] [Length=2466] [Word=Multipart-Boundary] https://play.picoctf.org/practice?Multipart-Boundary=1
+[2KFound: [Status=200] [Length=2466] [Word=Multiple-Choices] https://play.picoctf.org/practice?Multiple-Choices=1
+[2KFound: [Status=200] [Length=2466] [Word=Mysqlport] https://play.picoctf.org/practice?Mysqlport=1
+[2KFound: [Status=200] [Length=2466] [Word=Negotiate] https://play.picoctf.org/practice?Negotiate=1
+[2KFound: [Status=200] [Length=2466] [Word=My-Header] https://play.picoctf.org/practice?My-Header=1
+[2KFound: [Status=200] [Length=2466] [Word=Native-Sockets] https://play.picoctf.org/practice?Native-Sockets=1
+[2KFound: [Status=200] [Length=2466] [Word=Nl] https://play.picoctf.org/practice?Nl=1
+[2KFound: [Status=200] [Length=2466] [Word=Multi-Status] https://play.picoctf.org/practice?Multi-Status=1
+[2KFound: [Status=200] [Length=2466] [Word=No-Content] https://play.picoctf.org/practice?No-Content=1
+[2KFound: [Status=200] [Length=2466] [Word=Non-Authoritative] https://play.picoctf.org/practice?Non-Authoritative=1
+[2KFound: [Status=200] [Length=2466] [Word=Nonce] https://play.picoctf.org/practice?Nonce=1
+[2KFound: [Status=200] [Length=2466] [Word=Not-Exists] https://play.picoctf.org/practice?Not-Exists=1
+[2KFound: [Status=200] [Length=2466] [Word=Not-Acceptable] https://play.picoctf.org/practice?Not-Acceptable=1
+[2KFound: [Status=200] [Length=2466] [Word=Not-Implemented] https://play.picoctf.org/practice?Not-Implemented=1
+[2KFound: [Status=200] [Length=2466] [Word=Not-Extended] https://play.picoctf.org/practice?Not-Extended=1
+[2KFound: [Status=200] [Length=2466] [Word=Not-Found] https://play.picoctf.org/practice?Not-Found=1
+[2KFound: [Status=200] [Length=2466] [Word=Notification-Template] https://play.picoctf.org/practice?Notification-Template=1
+[2KFound: [Status=200] [Length=2466] [Word=Oc-Chunked] https://play.picoctf.org/practice?Oc-Chunked=1
+[2KFound: [Status=200] [Length=2466] [Word=Not-Modified] https://play.picoctf.org/practice?Not-Modified=1
+[2KFound: [Status=200] [Length=2466] [Word=Ocs-Apirequest] https://play.picoctf.org/practice?Ocs-Apirequest=1
+[2KFound: [Status=200] [Length=2466] [Word=Ok] https://play.picoctf.org/practice?Ok=1
+[2KFound: [Status=200] [Length=2466] [Word=On-Behalf-Of] https://play.picoctf.org/practice?On-Behalf-Of=1
+[2KFound: [Status=200] [Length=2466] [Word=Onerror-Continue] https://play.picoctf.org/practice?Onerror-Continue=1
+[2KFound: [Status=200] [Length=2466] [Word=Onerror-Die] https://play.picoctf.org/practice?Onerror-Die=1
+[2KFound: [Status=200] [Length=2466] [Word=Onerror-Return] https://play.picoctf.org/practice?Onerror-Return=1
+[2KFound: [Status=200] [Length=2466] [Word=Opencart] https://play.picoctf.org/practice?Opencart=1
+[2KFound: [Status=200] [Length=2466] [Word=Options] https://play.picoctf.org/practice?Options=1
+[2KFound: [Status=200] [Length=2466] [Word=Organizer] https://play.picoctf.org/practice?Organizer=1
+[2KFound: [Status=200] [Length=2466] [Word=Origin] https://play.picoctf.org/practice?Origin=1
+[2KFound: [Status=200] [Length=2466] [Word=Originator] https://play.picoctf.org/practice?Originator=1
+[2KFound: [Status=200] [Length=2466] [Word=Orig_path_info] https://play.picoctf.org/practice?Orig_path_info=1
+[2KFound: [Status=200] [Length=2466] [Word=Overwrite] https://play.picoctf.org/practice?Overwrite=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Allow-Comma] https://play.picoctf.org/practice?Params-Allow-Comma=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Get-Catid] https://play.picoctf.org/practice?Params-Get-Catid=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Allow-Failure] https://play.picoctf.org/practice?Params-Allow-Failure=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Default] https://play.picoctf.org/practice?Params-Default=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Get-Downwards] https://play.picoctf.org/practice?Params-Get-Downwards=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Get-Disposition] https://play.picoctf.org/practice?Params-Get-Disposition=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Get-Currentday] https://play.picoctf.org/practice?Params-Get-Currentday=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Get-Givendate] https://play.picoctf.org/practice?Params-Get-Givendate=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Get-Lang] https://play.picoctf.org/practice?Params-Get-Lang=1
+[2KFound: [Status=200] [Length=2466] [Word=Passkey] https://play.picoctf.org/practice?Passkey=1
+[2KFound: [Status=200] [Length=2466] [Word=Password] https://play.picoctf.org/practice?Password=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Get-Type] https://play.picoctf.org/practice?Params-Get-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Partial-Content] https://play.picoctf.org/practice?Partial-Content=1
+[2KFound: [Status=200] [Length=2466] [Word=Params-Raise-Error] https://play.picoctf.org/practice?Params-Raise-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Path] https://play.picoctf.org/practice?Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Path-Base] https://play.picoctf.org/practice?Path-Base=1
+[2KFound: [Status=200] [Length=2466] [Word=Path-Info] https://play.picoctf.org/practice?Path-Info=1
+[2KFound: [Status=200] [Length=2466] [Word=Path-Themes] https://play.picoctf.org/practice?Path-Themes=1
+[2KFound: [Status=200] [Length=2466] [Word=Path-Translated] https://play.picoctf.org/practice?Path-Translated=1
+[2KFound: [Status=200] [Length=2466] [Word=Payment-Required] https://play.picoctf.org/practice?Payment-Required=1
+[2KFound: [Status=200] [Length=2466] [Word=Pc-Remote-Addr] https://play.picoctf.org/practice?Pc-Remote-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=Php] https://play.picoctf.org/practice?Php=1
+[2KFound: [Status=200] [Length=2466] [Word=Php-Auth-User] https://play.picoctf.org/practice?Php-Auth-User=1
+[2KFound: [Status=200] [Length=2466] [Word=Pink-Pony] https://play.picoctf.org/practice?Pink-Pony=1
+[2KFound: [Status=200] [Length=2466] [Word=Php-Auth-Pw] https://play.picoctf.org/practice?Php-Auth-Pw=1
+[2KFound: [Status=200] [Length=2466] [Word=Phpthreads] https://play.picoctf.org/practice?Phpthreads=1
+[2KFound: [Status=200] [Length=2466] [Word=Phone-Number] https://play.picoctf.org/practice?Phone-Number=1
+[2KFound: [Status=200] [Length=2466] [Word=Port] https://play.picoctf.org/practice?Port=1
+[2KFound: [Status=200] [Length=2466] [Word=Post-Error] https://play.picoctf.org/practice?Post-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Portsensor-Auth] https://play.picoctf.org/practice?Portsensor-Auth=1
+[2KFound: [Status=200] [Length=2466] [Word=Post-Files] https://play.picoctf.org/practice?Post-Files=1
+[2KFound: [Status=200] [Length=2466] [Word=Postredir-301] https://play.picoctf.org/practice?Postredir-301=1
+[2KFound: [Status=200] [Length=2466] [Word=Post-Vars] https://play.picoctf.org/practice?Post-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Postredir-All] https://play.picoctf.org/practice?Postredir-All=1
+[2KFound: [Status=200] [Length=2466] [Word=Post] https://play.picoctf.org/practice?Post=1
+[2KFound: [Status=200] [Length=2466] [Word=Pragma] https://play.picoctf.org/practice?Pragma=1
+[2KFound: [Status=200] [Length=2466] [Word=Postredir-302] https://play.picoctf.org/practice?Postredir-302=1
+[2KFound: [Status=200] [Length=2466] [Word=Pragma-No-Cache] https://play.picoctf.org/practice?Pragma-No-Cache=1
+[2KFound: [Status=200] [Length=2466] [Word=Precondition-Failed] https://play.picoctf.org/practice?Precondition-Failed=1
+[2KFound: [Status=200] [Length=2466] [Word=Prefer] https://play.picoctf.org/practice?Prefer=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy] https://play.picoctf.org/practice?Proxy=1
+[2KFound: [Status=200] [Length=2466] [Word=Protocol] https://play.picoctf.org/practice?Protocol=1
+[2KFound: [Status=200] [Length=2466] [Word=Profile] https://play.picoctf.org/practice?Profile=1
+[2KFound: [Status=200] [Length=2466] [Word=Processing] https://play.picoctf.org/practice?Processing=1
+[2KFound: [Status=200] [Length=2466] [Word=Protocols] https://play.picoctf.org/practice?Protocols=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Agent] https://play.picoctf.org/practice?Proxy-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Authenticate] https://play.picoctf.org/practice?Proxy-Authenticate=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Authentication-Required] https://play.picoctf.org/practice?Proxy-Authentication-Required=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Authorization] https://play.picoctf.org/practice?Proxy-Authorization=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Connection] https://play.picoctf.org/practice?Proxy-Connection=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Host] https://play.picoctf.org/practice?Proxy-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Port] https://play.picoctf.org/practice?Proxy-Port=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Http] https://play.picoctf.org/practice?Proxy-Http=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Http-1-0] https://play.picoctf.org/practice?Proxy-Http-1-0=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Pwd] https://play.picoctf.org/practice?Proxy-Pwd=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Request-Fulluri] https://play.picoctf.org/practice?Proxy-Request-Fulluri=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Password] https://play.picoctf.org/practice?Proxy-Password=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Socks4] https://play.picoctf.org/practice?Proxy-Socks4=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Socks4a] https://play.picoctf.org/practice?Proxy-Socks4a=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Socks5] https://play.picoctf.org/practice?Proxy-Socks5=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Socks5-Hostname] https://play.picoctf.org/practice?Proxy-Socks5-Hostname=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-Url] https://play.picoctf.org/practice?Proxy-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Proxy-User] https://play.picoctf.org/practice?Proxy-User=1
+[2KFound: [Status=200] [Length=2466] [Word=Public-Key-Pins] https://play.picoctf.org/practice?Public-Key-Pins=1
+[2KFound: [Status=200] [Length=2466] [Word=Public-Key-Pins-Report-Only] https://play.picoctf.org/practice?Public-Key-Pins-Report-Only=1
+[2KFound: [Status=200] [Length=2466] [Word=Pull] https://play.picoctf.org/practice?Pull=1
+[2KFound: [Status=200] [Length=2466] [Word=Put] https://play.picoctf.org/practice?Put=1
+[2KFound: [Status=200] [Length=2466] [Word=Querystring] https://play.picoctf.org/practice?Querystring=1
+[2KFound: [Status=200] [Length=2466] [Word=Query-String] https://play.picoctf.org/practice?Query-String=1
+[2KFound: [Status=200] [Length=2466] [Word=Querystring-Type-Array] https://play.picoctf.org/practice?Querystring-Type-Array=1
+[2KFound: [Status=200] [Length=2466] [Word=Querystring-Type-Bool] https://play.picoctf.org/practice?Querystring-Type-Bool=1
+[2KFound: [Status=200] [Length=2466] [Word=Querystring-Type-Float] https://play.picoctf.org/practice?Querystring-Type-Float=1
+[2KFound: [Status=200] [Length=2466] [Word=Querystring-Type-Int] https://play.picoctf.org/practice?Querystring-Type-Int=1
+[2KFound: [Status=200] [Length=2466] [Word=Querystring-Type-Object] https://play.picoctf.org/practice?Querystring-Type-Object=1
+[2KFound: [Status=200] [Length=2466] [Word=Range-Not-Satisfiable] https://play.picoctf.org/practice?Range-Not-Satisfiable=1
+[2KFound: [Status=200] [Length=2466] [Word=Querystring-Type-String] https://play.picoctf.org/practice?Querystring-Type-String=1
+[2KFound: [Status=200] [Length=2466] [Word=Range] https://play.picoctf.org/practice?Range=1
+[2KFound: [Status=200] [Length=2466] [Word=Raw-Post-Data] https://play.picoctf.org/practice?Raw-Post-Data=1
+[2KFound: [Status=200] [Length=2466] [Word=Read-State-Begin] https://play.picoctf.org/practice?Read-State-Begin=1
+[2KFound: [Status=200] [Length=2466] [Word=Read-State-Body] https://play.picoctf.org/practice?Read-State-Body=1
+[2KFound: [Status=200] [Length=2466] [Word=Read-State-Headers] https://play.picoctf.org/practice?Read-State-Headers=1
+[2KFound: [Status=200] [Length=2466] [Word=Real-Ip] https://play.picoctf.org/practice?Real-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Real-Method] https://play.picoctf.org/practice?Real-Method=1
+[2KFound: [Status=200] [Length=2466] [Word=Reason] https://play.picoctf.org/practice?Reason=1
+[2KFound: [Status=200] [Length=2466] [Word=Reason-Phrase] https://play.picoctf.org/practice?Reason-Phrase=1
+[2KFound: [Status=200] [Length=2466] [Word=Recipient] https://play.picoctf.org/practice?Recipient=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect] https://play.picoctf.org/practice?Redirect=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirected-Accept-Language] https://play.picoctf.org/practice?Redirected-Accept-Language=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect-Found] https://play.picoctf.org/practice?Redirect-Found=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-Found] https://play.picoctf.org/practice?Redirection-Found=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-Multiple-Choices] https://play.picoctf.org/practice?Redirection-Multiple-Choices=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-Not-Modified] https://play.picoctf.org/practice?Redirection-Not-Modified=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-Permanent] https://play.picoctf.org/practice?Redirection-Permanent=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-Temporary] https://play.picoctf.org/practice?Redirection-Temporary=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-See-Other] https://play.picoctf.org/practice?Redirection-See-Other=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-Unused] https://play.picoctf.org/practice?Redirection-Unused=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirection-Use-Proxy] https://play.picoctf.org/practice?Redirection-Use-Proxy=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect-Post] https://play.picoctf.org/practice?Redirect-Post=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect-Perm] https://play.picoctf.org/practice?Redirect-Perm=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect-Problem-Withoutwww] https://play.picoctf.org/practice?Redirect-Problem-Withoutwww=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect-Problem-Withwww] https://play.picoctf.org/practice?Redirect-Problem-Withwww=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect-Proxy] https://play.picoctf.org/practice?Redirect-Proxy=1
+[2KFound: [Status=200] [Length=2466] [Word=Redirect-Temp] https://play.picoctf.org/practice?Redirect-Temp=1
+[2KFound: [Status=200] [Length=2466] [Word=Ref] https://play.picoctf.org/practice?Ref=1
+[2KFound: [Status=200] [Length=2466] [Word=Referer] https://play.picoctf.org/practice?Referer=1
+[2KFound: [Status=200] [Length=2466] [Word=Referer] https://play.picoctf.org/practice?Referer=1
+[2KFound: [Status=200] [Length=2466] [Word=Referrer-Policy] https://play.picoctf.org/practice?Referrer-Policy=1
+[2KFound: [Status=200] [Length=2466] [Word=Referrer] https://play.picoctf.org/practice?Referrer=1
+[2KFound: [Status=200] [Length=2466] [Word=Refresh] https://play.picoctf.org/practice?Refresh=1
+[2KFound: [Status=200] [Length=2466] [Word=Refferer] https://play.picoctf.org/practice?Refferer=1
+[2KFound: [Status=200] [Length=2466] [Word=Remote-Addr] https://play.picoctf.org/practice?Remote-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=Remix-Hash] https://play.picoctf.org/practice?Remix-Hash=1
+[2KFound: [Status=200] [Length=2466] [Word=Remote-Host] https://play.picoctf.org/practice?Remote-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=Remote-User] https://play.picoctf.org/practice?Remote-User=1
+[2KFound: [Status=200] [Length=2466] [Word=Remote-Userhttps] https://play.picoctf.org/practice?Remote-Userhttps=1
+[2KFound: [Status=200] [Length=2466] [Word=Remote-Host-Wp] https://play.picoctf.org/practice?Remote-Host-Wp=1
+[2KFound: [Status=200] [Length=2466] [Word=Report-To] https://play.picoctf.org/practice?Report-To=1
+[2KFound: [Status=200] [Length=2466] [Word=Request] https://play.picoctf.org/practice?Request=1
+[2KFound: [Status=200] [Length=2466] [Word=Request2-Tests-Base-Url] https://play.picoctf.org/practice?Request2-Tests-Base-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Request2-Tests-Proxy-Host] https://play.picoctf.org/practice?Request2-Tests-Proxy-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Entity-Too-Large] https://play.picoctf.org/practice?Request-Entity-Too-Large=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error] https://play.picoctf.org/practice?Request-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-File] https://play.picoctf.org/practice?Request-Error-File=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Gzip-Crc] https://play.picoctf.org/practice?Request-Error-Gzip-Crc=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Gzip-Data] https://play.picoctf.org/practice?Request-Error-Gzip-Data=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Gzip-Read] https://play.picoctf.org/practice?Request-Error-Gzip-Read=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Gzip-Method] https://play.picoctf.org/practice?Request-Error-Gzip-Method=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Redirects] https://play.picoctf.org/practice?Request-Error-Redirects=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Response] https://play.picoctf.org/practice?Request-Error-Response=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Proxy] https://play.picoctf.org/practice?Request-Error-Proxy=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Error-Url] https://play.picoctf.org/practice?Request-Error-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Http-Ver-1-0] https://play.picoctf.org/practice?Request-Http-Ver-1-0=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Http-Ver-1-1] https://play.picoctf.org/practice?Request-Http-Ver-1-1=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Mbstring] https://play.picoctf.org/practice?Request-Mbstring=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method] https://play.picoctf.org/practice?Request-Method=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-Delete] https://play.picoctf.org/practice?Request-Method-Delete=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-Post] https://play.picoctf.org/practice?Request-Method-Post=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-] https://play.picoctf.org/practice?Request-Method-=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-Head] https://play.picoctf.org/practice?Request-Method-Head=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-Get] https://play.picoctf.org/practice?Request-Method-Get=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-Put] https://play.picoctf.org/practice?Request-Method-Put=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-Options] https://play.picoctf.org/practice?Request-Method-Options=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Method-Trace] https://play.picoctf.org/practice?Request-Method-Trace=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Timeout] https://play.picoctf.org/practice?Request-Timeout=1
+[2KFound: [Status=200] [Length=2466] [Word=Requesttoken] https://play.picoctf.org/practice?Requesttoken=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Uri] https://play.picoctf.org/practice?Request-Uri=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Time-Out] https://play.picoctf.org/practice?Request-Time-Out=1
+[2KFound: [Status=200] [Length=2466] [Word=Reset-Content] https://play.picoctf.org/practice?Reset-Content=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Uri-Too-Large] https://play.picoctf.org/practice?Request-Uri-Too-Large=1
+[2KFound: [Status=200] [Length=2466] [Word=Request-Vars] https://play.picoctf.org/practice?Request-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Rest-Key] https://play.picoctf.org/practice?Rest-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=Response] https://play.picoctf.org/practice?Response=1
+[2KFound: [Status=200] [Length=2466] [Word=Rest-Sign] https://play.picoctf.org/practice?Rest-Sign=1
+[2KFound: [Status=200] [Length=2466] [Word=Retry-After] https://play.picoctf.org/practice?Retry-After=1
+[2KFound: [Status=200] [Length=2466] [Word=Returned-Error] https://play.picoctf.org/practice?Returned-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Rlnclientipaddr] https://play.picoctf.org/practice?Rlnclientipaddr=1
+[2KFound: [Status=200] [Length=2466] [Word=Safe-Ports-List] https://play.picoctf.org/practice?Safe-Ports-List=1
+[2KFound: [Status=200] [Length=2466] [Word=Root] https://play.picoctf.org/practice?Root=1
+[2KFound: [Status=200] [Length=2466] [Word=Safe-Ports-Ssl-List] https://play.picoctf.org/practice?Safe-Ports-Ssl-List=1
+[2KFound: [Status=200] [Length=2466] [Word=Schedule-Reply] https://play.picoctf.org/practice?Schedule-Reply=1
+[2KFound: [Status=200] [Length=2466] [Word=Script-Name] https://play.picoctf.org/practice?Script-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=Scheme] https://play.picoctf.org/practice?Scheme=1
+[2KFound: [Status=200] [Length=2466] [Word=Secretkey] https://play.picoctf.org/practice?Secretkey=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Accept] https://play.picoctf.org/practice?Sec-Websocket-Accept=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Extensions] https://play.picoctf.org/practice?Sec-Websocket-Extensions=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Key2] https://play.picoctf.org/practice?Sec-Websocket-Key2=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Key1] https://play.picoctf.org/practice?Sec-Websocket-Key1=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Version] https://play.picoctf.org/practice?Sec-Websocket-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Key] https://play.picoctf.org/practice?Sec-Websocket-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Origin] https://play.picoctf.org/practice?Sec-Websocket-Origin=1
+[2KFound: [Status=200] [Length=2466] [Word=Self] https://play.picoctf.org/practice?Self=1
+[2KFound: [Status=200] [Length=2466] [Word=Sec-Websocket-Protocol] https://play.picoctf.org/practice?Sec-Websocket-Protocol=1
+[2KFound: [Status=200] [Length=2466] [Word=See-Other] https://play.picoctf.org/practice?See-Other=1
+[2KFound: [Status=200] [Length=2466] [Word=Send-X-Frame-Options] https://play.picoctf.org/practice?Send-X-Frame-Options=1
+[2KFound: [Status=200] [Length=2466] [Word=Server] https://play.picoctf.org/practice?Server=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Bad-Gateway] https://play.picoctf.org/practice?Server-Bad-Gateway=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Error] https://play.picoctf.org/practice?Server-Error=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Gateway-Timeout] https://play.picoctf.org/practice?Server-Gateway-Timeout=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Internal] https://play.picoctf.org/practice?Server-Internal=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Not-Implemented] https://play.picoctf.org/practice?Server-Not-Implemented=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Port] https://play.picoctf.org/practice?Server-Port=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Name] https://play.picoctf.org/practice?Server-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Protocol] https://play.picoctf.org/practice?Server-Protocol=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Port-Secure] https://play.picoctf.org/practice?Server-Port-Secure=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Service-Unavailable] https://play.picoctf.org/practice?Server-Service-Unavailable=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Software] https://play.picoctf.org/practice?Server-Software=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Unsupported-Version] https://play.picoctf.org/practice?Server-Unsupported-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Vars] https://play.picoctf.org/practice?Server-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Server-Varsabantecart] https://play.picoctf.org/practice?Server-Varsabantecart=1
+[2KFound: [Status=200] [Length=2466] [Word=Service-Unavailable] https://play.picoctf.org/practice?Service-Unavailable=1
+[2KFound: [Status=200] [Length=2466] [Word=Set-Cookie] https://play.picoctf.org/practice?Set-Cookie=1
+[2KFound: [Status=200] [Length=2466] [Word=Set-Cookie2] https://play.picoctf.org/practice?Set-Cookie2=1
+[2KFound: [Status=200] [Length=2466] [Word=Session-Id-Tag] https://play.picoctf.org/practice?Session-Id-Tag=1
+[2KFound: [Status=200] [Length=2466] [Word=Session-Vars] https://play.picoctf.org/practice?Session-Vars=1
+[2KFound: [Status=200] [Length=2466] [Word=Shib-] https://play.picoctf.org/practice?Shib-=1
+[2KFound: [Status=200] [Length=2466] [Word=Shib-Application-Id] https://play.picoctf.org/practice?Shib-Application-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=Shib-Identity-Provider] https://play.picoctf.org/practice?Shib-Identity-Provider=1
+[2KFound: [Status=200] [Length=2466] [Word=Shib-Logouturl] https://play.picoctf.org/practice?Shib-Logouturl=1
+[2KFound: [Status=200] [Length=2466] [Word=Shopilex] https://play.picoctf.org/practice?Shopilex=1
+[2KFound: [Status=200] [Length=2466] [Word=Slug] https://play.picoctf.org/practice?Slug=1
+[2KFound: [Status=200] [Length=2466] [Word=Somevar] https://play.picoctf.org/practice?Somevar=1
+[2KFound: [Status=200] [Length=2466] [Word=Socketlog] https://play.picoctf.org/practice?Socketlog=1
+[2KFound: [Status=200] [Length=2466] [Word=Sn] https://play.picoctf.org/practice?Sn=1
+[2KFound: [Status=200] [Length=2466] [Word=Socket-Connection-Err] https://play.picoctf.org/practice?Socket-Connection-Err=1
+[2KFound: [Status=200] [Length=2466] [Word=Soapaction] https://play.picoctf.org/practice?Soapaction=1
+[2KFound: [Status=200] [Length=2466] [Word=Sourcemap] https://play.picoctf.org/practice?Sourcemap=1
+[2KFound: [Status=200] [Length=2466] [Word=Sp-Client] https://play.picoctf.org/practice?Sp-Client=1
+[2KFound: [Status=200] [Length=2466] [Word=Sp-Host] https://play.picoctf.org/practice?Sp-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=Ssl] https://play.picoctf.org/practice?Ssl=1
+[2KFound: [Status=200] [Length=2466] [Word=Ssl-Https] https://play.picoctf.org/practice?Ssl-Https=1
+[2KFound: [Status=200] [Length=2466] [Word=Ssl-Offloaded] https://play.picoctf.org/practice?Ssl-Offloaded=1
+[2KFound: [Status=200] [Length=2466] [Word=Sslsessionid] https://play.picoctf.org/practice?Sslsessionid=1
+[2KFound: [Status=200] [Length=2466] [Word=Ssl-Version-Any] https://play.picoctf.org/practice?Ssl-Version-Any=1
+[2KFound: [Status=200] [Length=2466] [Word=Ssl-Session-Id] https://play.picoctf.org/practice?Ssl-Session-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=Start] https://play.picoctf.org/practice?Start=1
+[2KFound: [Status=200] [Length=2466] [Word=Status] https://play.picoctf.org/practice?Status=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-] https://play.picoctf.org/practice?Status-=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-403] https://play.picoctf.org/practice?Status-403=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-403-Admin-Del] https://play.picoctf.org/practice?Status-403-Admin-Del=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-404] https://play.picoctf.org/practice?Status-404=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-Bad-Request] https://play.picoctf.org/practice?Status-Bad-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-Code] https://play.picoctf.org/practice?Status-Code=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-Forbidden] https://play.picoctf.org/practice?Status-Forbidden=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-Ok] https://play.picoctf.org/practice?Status-Ok=1
+[2KFound: [Status=200] [Length=2466] [Word=Strict-Transport-Security] https://play.picoctf.org/practice?Strict-Transport-Security=1
+[2KFound: [Status=200] [Length=2466] [Word=Str-Match] https://play.picoctf.org/practice?Str-Match=1
+[2KFound: [Status=200] [Length=2466] [Word=Status-Platform-403] https://play.picoctf.org/practice?Status-Platform-403=1
+[2KFound: [Status=403] [Length=15432] [Word=Support-Events] https://play.picoctf.org/practice?Support-Events=1
+[2KFound: [Status=200] [Length=2466] [Word=Success-Accepted] https://play.picoctf.org/practice?Success-Accepted=1
+[2KFound: [Status=200] [Length=2466] [Word=Success-Created] https://play.picoctf.org/practice?Success-Created=1
+[2KFound: [Status=200] [Length=2466] [Word=Success-Non-Authoritative] https://play.picoctf.org/practice?Success-Non-Authoritative=1
+[2KFound: [Status=200] [Length=2466] [Word=Success-No-Content] https://play.picoctf.org/practice?Success-No-Content=1
+[2KFound: [Status=200] [Length=2466] [Word=Success-Ok] https://play.picoctf.org/practice?Success-Ok=1
+[2KFound: [Status=403] [Length=15441] [Word=Support-Requests] https://play.picoctf.org/practice?Support-Requests=1
+[2KFound: [Status=200] [Length=2466] [Word=Success-Partial-Content] https://play.picoctf.org/practice?Success-Partial-Content=1
+[2KFound: [Status=200] [Length=2466] [Word=Support] https://play.picoctf.org/practice?Support=1
+[2KFound: [Status=200] [Length=2466] [Word=Success-Reset-Content] https://play.picoctf.org/practice?Success-Reset-Content=1
+[2KFound: [Status=200] [Length=2466] [Word=Support-Encodings] https://play.picoctf.org/practice?Support-Encodings=1
+[2KFound: [Status=200] [Length=2466] [Word=Support-Magicmime] https://play.picoctf.org/practice?Support-Magicmime=1
+[2KFound: [Status=200] [Length=2466] [Word=Support-Sslrequests] https://play.picoctf.org/practice?Support-Sslrequests=1
+[2KFound: [Status=200] [Length=2466] [Word=Surrogate-Capability] https://play.picoctf.org/practice?Surrogate-Capability=1
+[2KFound: [Status=200] [Length=2466] [Word=Te] https://play.picoctf.org/practice?Te=1
+[2KFound: [Status=200] [Length=2466] [Word=Switching-Protocols] https://play.picoctf.org/practice?Switching-Protocols=1
+[2KFound: [Status=200] [Length=2466] [Word=Test] https://play.picoctf.org/practice?Test=1
+[2KFound: [Status=200] [Length=2466] [Word=Temporary-Redirect] https://play.picoctf.org/practice?Temporary-Redirect=1
+[2KFound: [Status=200] [Length=2466] [Word=Test-Server-Path] https://play.picoctf.org/practice?Test-Server-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Test-Config] https://play.picoctf.org/practice?Test-Config=1
+[2KFound: [Status=200] [Length=2466] [Word=Ticket] https://play.picoctf.org/practice?Ticket=1
+[2KFound: [Status=200] [Length=2466] [Word=Timeout] https://play.picoctf.org/practice?Timeout=1
+[2KFound: [Status=200] [Length=2466] [Word=Time-Out] https://play.picoctf.org/practice?Time-Out=1
+[2KFound: [Status=200] [Length=2466] [Word=Title] https://play.picoctf.org/practice?Title=1
+[2KFound: [Status=200] [Length=2466] [Word=Timing-Allow-Origin] https://play.picoctf.org/practice?Timing-Allow-Origin=1
+[2KFound: [Status=200] [Length=2466] [Word=Tk] https://play.picoctf.org/practice?Tk=1
+[2KFound: [Status=200] [Length=2466] [Word=Token] https://play.picoctf.org/practice?Token=1
+[2KFound: [Status=200] [Length=2466] [Word=Tmp] https://play.picoctf.org/practice?Tmp=1
+[2KFound: [Status=200] [Length=2466] [Word=Trailer] https://play.picoctf.org/practice?Trailer=1
+[2KFound: [Status=200] [Length=2466] [Word=Transfer-Encoding] https://play.picoctf.org/practice?Transfer-Encoding=1
+[2KFound: [Status=200] [Length=2466] [Word=Ua-Color] https://play.picoctf.org/practice?Ua-Color=1
+[2KFound: [Status=200] [Length=2466] [Word=Translate] https://play.picoctf.org/practice?Translate=1
+[2KFound: [Status=200] [Length=2466] [Word=Ua-Cpu] https://play.picoctf.org/practice?Ua-Cpu=1
+[2KFound: [Status=200] [Length=2466] [Word=Ua-Os] https://play.picoctf.org/practice?Ua-Os=1
+[2KFound: [Status=200] [Length=2466] [Word=True-Client-Ip] https://play.picoctf.org/practice?True-Client-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=Transport-Err] https://play.picoctf.org/practice?Transport-Err=1
+[2KFound: [Status=200] [Length=2466] [Word=Ua-Pixels] https://play.picoctf.org/practice?Ua-Pixels=1
+[2KFound: [Status=200] [Length=2466] [Word=Ua] https://play.picoctf.org/practice?Ua=1
+[2KFound: [Status=200] [Length=2466] [Word=Ua-Resolution] https://play.picoctf.org/practice?Ua-Resolution=1
+[2KFound: [Status=200] [Length=2466] [Word=Test-Something-Anything] https://play.picoctf.org/practice?Test-Something-Anything=1
+[2KFound: [Status=200] [Length=2466] [Word=Unencoded-Url] https://play.picoctf.org/practice?Unencoded-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Ua-Voice] https://play.picoctf.org/practice?Ua-Voice=1
+[2KFound: [Status=200] [Length=2466] [Word=Unauthorized] https://play.picoctf.org/practice?Unauthorized=1
+[2KFound: [Status=200] [Length=2466] [Word=Unprocessable-Entity] https://play.picoctf.org/practice?Unprocessable-Entity=1
+[2KFound: [Status=200] [Length=2466] [Word=Unless-Modified-Since] https://play.picoctf.org/practice?Unless-Modified-Since=1
+[2KFound: [Status=200] [Length=2466] [Word=Unsupported-Media-Type] https://play.picoctf.org/practice?Unsupported-Media-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=Upgrade] https://play.picoctf.org/practice?Upgrade=1
+[2KFound: [Status=200] [Length=2466] [Word=Unit-Test-Mode] https://play.picoctf.org/practice?Unit-Test-Mode=1
+[2KFound: [Status=200] [Length=2466] [Word=Upgrade-Required] https://play.picoctf.org/practice?Upgrade-Required=1
+[2KFound: [Status=200] [Length=2466] [Word=Upgrade-Insecure-Requests] https://play.picoctf.org/practice?Upgrade-Insecure-Requests=1
+[2KFound: [Status=200] [Length=2466] [Word=Upload-Default-Chmod] https://play.picoctf.org/practice?Upload-Default-Chmod=1
+[2KFound: [Status=200] [Length=2466] [Word=Uri] https://play.picoctf.org/practice?Uri=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Replace] https://play.picoctf.org/practice?Url-Replace=1
+[2KFound: [Status=200] [Length=2466] [Word=Url] https://play.picoctf.org/practice?Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Join-Path] https://play.picoctf.org/practice?Url-Join-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-From-Env] https://play.picoctf.org/practice?Url-From-Env=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Join-Query] https://play.picoctf.org/practice?Url-Join-Query=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-] https://play.picoctf.org/practice?Url-Strip-=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Sanitize-Path] https://play.picoctf.org/practice?Url-Sanitize-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-All] https://play.picoctf.org/practice?Url-Strip-All=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-Auth] https://play.picoctf.org/practice?Url-Strip-Auth=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-Fragment] https://play.picoctf.org/practice?Url-Strip-Fragment=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-Pass] https://play.picoctf.org/practice?Url-Strip-Pass=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-Path] https://play.picoctf.org/practice?Url-Strip-Path=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-Port] https://play.picoctf.org/practice?Url-Strip-Port=1
+[2KFound: [Status=200] [Length=2466] [Word=Use-Proxy] https://play.picoctf.org/practice?Use-Proxy=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-User] https://play.picoctf.org/practice?Url-Strip-User=1
+[2KFound: [Status=200] [Length=2466] [Word=Use-Gzip] https://play.picoctf.org/practice?Use-Gzip=1
+[2KFound: [Status=200] [Length=2466] [Word=User] https://play.picoctf.org/practice?User=1
+[2KFound: [Status=200] [Length=2466] [Word=Url-Strip-Query] https://play.picoctf.org/practice?Url-Strip-Query=1
+[2KFound: [Status=200] [Length=2466] [Word=Useragent] https://play.picoctf.org/practice?Useragent=1
+[2KFound: [Status=200] [Length=2466] [Word=User-Agent] https://play.picoctf.org/practice?User-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=Useragent-Via] https://play.picoctf.org/practice?Useragent-Via=1
+[2KFound: [Status=200] [Length=2466] [Word=User-Photos] https://play.picoctf.org/practice?User-Photos=1
+[2KFound: [Status=200] [Length=2466] [Word=User-Agent-Via] https://play.picoctf.org/practice?User-Agent-Via=1
+[2KFound: [Status=200] [Length=2466] [Word=User-Mail] https://play.picoctf.org/practice?User-Mail=1
+[2KFound: [Status=200] [Length=2466] [Word=User-Name] https://play.picoctf.org/practice?User-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=User-Id] https://play.picoctf.org/practice?User-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=Util] https://play.picoctf.org/practice?Util=1
+[2KFound: [Status=200] [Length=2466] [Word=User-Email] https://play.picoctf.org/practice?User-Email=1
+[2KFound: [Status=200] [Length=2466] [Word=Variant-Also-Varies] https://play.picoctf.org/practice?Variant-Also-Varies=1
+[2KFound: [Status=200] [Length=2466] [Word=Vary] https://play.picoctf.org/practice?Vary=1
+[2KFound: [Status=200] [Length=2466] [Word=Version-1-1] https://play.picoctf.org/practice?Version-1-1=1
+[2KFound: [Status=200] [Length=2466] [Word=Version-1-0] https://play.picoctf.org/practice?Version-1-0=1
+[2KFound: [Status=200] [Length=2466] [Word=Verify-Cert] https://play.picoctf.org/practice?Verify-Cert=1
+[2KFound: [Status=200] [Length=2466] [Word=Verbose] https://play.picoctf.org/practice?Verbose=1
+[2KFound: [Status=200] [Length=2466] [Word=Verbose-Throttle] https://play.picoctf.org/practice?Verbose-Throttle=1
+[2KFound: [Status=200] [Length=2466] [Word=Versioncode] https://play.picoctf.org/practice?Versioncode=1
+[2KFound: [Status=200] [Length=2466] [Word=Version] https://play.picoctf.org/practice?Version=1
+[2KFound: [Status=200] [Length=2466] [Word=Version-Any] https://play.picoctf.org/practice?Version-Any=1
+[2KFound: [Status=200] [Length=2466] [Word=Version-None] https://play.picoctf.org/practice?Version-None=1
+[2KFound: [Status=200] [Length=2466] [Word=Version-Not-Supported] https://play.picoctf.org/practice?Version-Not-Supported=1
+[2KFound: [Status=200] [Length=2466] [Word=Via] https://play.picoctf.org/practice?Via=1
+[2KFound: [Status=200] [Length=2466] [Word=Wap-Connection] https://play.picoctf.org/practice?Wap-Connection=1
+[2KFound: [Status=200] [Length=2466] [Word=Viad] https://play.picoctf.org/practice?Viad=1
+[2KFound: [Status=200] [Length=2466] [Word=Waf-Stuff-Below] https://play.picoctf.org/practice?Waf-Stuff-Below=1
+[2KFound: [Status=200] [Length=2466] [Word=Webodf-Member-Id] https://play.picoctf.org/practice?Webodf-Member-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=Warning] https://play.picoctf.org/practice?Warning=1
+[2KFound: [Status=200] [Length=2466] [Word=Webodf-Session-Id] https://play.picoctf.org/practice?Webodf-Session-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=Web-Server-Api] https://play.picoctf.org/practice?Web-Server-Api=1
+[2KFound: [Status=200] [Length=2466] [Word=Work-Directory] https://play.picoctf.org/practice?Work-Directory=1
+[2KFound: [Status=200] [Length=2466] [Word=Www-Address] https://play.picoctf.org/practice?Www-Address=1
+[2KFound: [Status=200] [Length=2466] [Word=Www-Authenticate] https://play.picoctf.org/practice?Www-Authenticate=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Aastra-Expmod1] https://play.picoctf.org/practice?X-Aastra-Expmod1=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Aastra-Expmod3] https://play.picoctf.org/practice?X-Aastra-Expmod3=1
+[2KFound: [Status=200] [Length=2466] [Word=X-] https://play.picoctf.org/practice?X-=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Aastra-Expmod2] https://play.picoctf.org/practice?X-Aastra-Expmod2=1
+[2KFound: [Status=200] [Length=2466] [Word=X] https://play.picoctf.org/practice?X=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Accel-Mapping] https://play.picoctf.org/practice?X-Accel-Mapping=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Access-Token] https://play.picoctf.org/practice?X-Access-Token=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Advertiser-Id] https://play.picoctf.org/practice?X-Advertiser-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ajax-Real-Method] https://play.picoctf.org/practice?X-Ajax-Real-Method=1
+[2KFound: [Status=200] [Length=2466] [Word=X_alto_ajax_key] https://play.picoctf.org/practice?X_alto_ajax_key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Alto-Ajax-Keyz] https://play.picoctf.org/practice?X-Alto-Ajax-Keyz=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Api-Key] https://play.picoctf.org/practice?X-Api-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Amz-Date] https://play.picoctf.org/practice?X-Amz-Date=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Amzn-Remapped-Host] https://play.picoctf.org/practice?X-Amzn-Remapped-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Amz-Website-Redirect-Location] https://play.picoctf.org/practice?X-Amz-Website-Redirect-Location=1
+[2KFound: [Status=200] [Length=2466] [Word=Webodf-Session-Revision] https://play.picoctf.org/practice?Webodf-Session-Revision=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Api-Signature] https://play.picoctf.org/practice?X-Api-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Api-Timestamp] https://play.picoctf.org/practice?X-Api-Timestamp=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Apitoken] https://play.picoctf.org/practice?X-Apitoken=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Apple-Client-Application] https://play.picoctf.org/practice?X-Apple-Client-Application=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Arr-Log-Id] https://play.picoctf.org/practice?X-Arr-Log-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Apple-Store-Front] https://play.picoctf.org/practice?X-Apple-Store-Front=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Att-Deviceid] https://play.picoctf.org/practice?X-Att-Deviceid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Arr-Ssl] https://play.picoctf.org/practice?X-Arr-Ssl=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Authentication] https://play.picoctf.org/practice?X-Authentication=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Authentication-Key] https://play.picoctf.org/practice?X-Authentication-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-Key] https://play.picoctf.org/practice?X-Auth-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-Mode] https://play.picoctf.org/practice?X-Auth-Mode=1
+[2KFound: [Status=200] [Length=2466] [Word=Xauthorization] https://play.picoctf.org/practice?Xauthorization=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-Password] https://play.picoctf.org/practice?X-Auth-Password=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Authorization] https://play.picoctf.org/practice?X-Authorization=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-Token] https://play.picoctf.org/practice?X-Auth-Token=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-Service-Provider] https://play.picoctf.org/practice?X-Auth-Service-Provider=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-User] https://play.picoctf.org/practice?X-Auth-User=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-Username] https://play.picoctf.org/practice?X-Auth-Username=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Auth-Userid] https://play.picoctf.org/practice?X-Auth-Userid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Avantgo-Screensize] https://play.picoctf.org/practice?X-Avantgo-Screensize=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Azc-Remote-Addr] https://play.picoctf.org/practice?X-Azc-Remote-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Bear-Ajax-Request] https://play.picoctf.org/practice?X-Bear-Ajax-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Bluecoat-Via] https://play.picoctf.org/practice?X-Bluecoat-Via=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Bolt-Phone-Ua] https://play.picoctf.org/practice?X-Bolt-Phone-Ua=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Browser-Height] https://play.picoctf.org/practice?X-Browser-Height=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Browser-Width] https://play.picoctf.org/practice?X-Browser-Width=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Cascade] https://play.picoctf.org/practice?X-Cascade=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Cept-Encoding] https://play.picoctf.org/practice?X-Cept-Encoding=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Chrome-Extension] https://play.picoctf.org/practice?X-Chrome-Extension=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Cf-Url] https://play.picoctf.org/practice?X-Cf-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Cisco-Bbsm-Clientip] https://play.picoctf.org/practice?X-Cisco-Bbsm-Clientip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Client-Host] https://play.picoctf.org/practice?X-Client-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Client-Id] https://play.picoctf.org/practice?X-Client-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Clientip] https://play.picoctf.org/practice?X-Clientip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Client-Os] https://play.picoctf.org/practice?X-Client-Os=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Client-Ip] https://play.picoctf.org/practice?X-Client-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Client-Key] https://play.picoctf.org/practice?X-Client-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Client-Os-Ver] https://play.picoctf.org/practice?X-Client-Os-Ver=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Cluster-Client-Ip] https://play.picoctf.org/practice?X-Cluster-Client-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Codeception-Codecoverage] https://play.picoctf.org/practice?X-Codeception-Codecoverage=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Codeception-Codecoverage-Config] https://play.picoctf.org/practice?X-Codeception-Codecoverage-Config=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Codeception-Codecoverage-Debug] https://play.picoctf.org/practice?X-Codeception-Codecoverage-Debug=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Codeception-Codecoverage-Suite] https://play.picoctf.org/practice?X-Codeception-Codecoverage-Suite=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Collect-Coverage] https://play.picoctf.org/practice?X-Collect-Coverage=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Content-Type-Options] https://play.picoctf.org/practice?X-Content-Type-Options=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Confirm-Delete] https://play.picoctf.org/practice?X-Confirm-Delete=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Coming-From] https://play.picoctf.org/practice?X-Coming-From=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Credentials-Request] https://play.picoctf.org/practice?X-Credentials-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Csrf-Crumb] https://play.picoctf.org/practice?X-Csrf-Crumb=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Content-Type] https://play.picoctf.org/practice?X-Content-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Csrftoken] https://play.picoctf.org/practice?X-Csrftoken=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Csrf-Token] https://play.picoctf.org/practice?X-Csrf-Token=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Cuid] https://play.picoctf.org/practice?X-Cuid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Custom] https://play.picoctf.org/practice?X-Custom=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Dcmguid] https://play.picoctf.org/practice?X-Dcmguid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Davical-Testcase] https://play.picoctf.org/practice?X-Davical-Testcase=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Dagd-Proxy] https://play.picoctf.org/practice?X-Dagd-Proxy=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Debug-Test] https://play.picoctf.org/practice?X-Debug-Test=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Device-User-Agent] https://play.picoctf.org/practice?X-Device-User-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Dns-Prefetch-Control] https://play.picoctf.org/practice?X-Dns-Prefetch-Control=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Dialog] https://play.picoctf.org/practice?X-Dialog=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Do-Not-Track] https://play.picoctf.org/practice?X-Do-Not-Track=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Dokuwiki-Do] https://play.picoctf.org/practice?X-Dokuwiki-Do=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Drestcg] https://play.picoctf.org/practice?X-Drestcg=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Dsid] https://play.picoctf.org/practice?X-Dsid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Elgg-Apikey] https://play.picoctf.org/practice?X-Elgg-Apikey=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Elgg-Hmac] https://play.picoctf.org/practice?X-Elgg-Hmac=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Elgg-Hmac-Algo] https://play.picoctf.org/practice?X-Elgg-Hmac-Algo=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Elgg-Nonce] https://play.picoctf.org/practice?X-Elgg-Nonce=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Elgg-Time] https://play.picoctf.org/practice?X-Elgg-Time=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Em-Uid] https://play.picoctf.org/practice?X-Em-Uid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Elgg-Posthash] https://play.picoctf.org/practice?X-Elgg-Posthash=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Elgg-Posthash-Algo] https://play.picoctf.org/practice?X-Elgg-Posthash-Algo=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Enable-Coverage] https://play.picoctf.org/practice?X-Enable-Coverage=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Environment-Override] https://play.picoctf.org/practice?X-Environment-Override=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Expected-Entity-Length] https://play.picoctf.org/practice?X-Expected-Entity-Length=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Experience-Api-Version] https://play.picoctf.org/practice?X-Experience-Api-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Fb-User-Remote-Addr] https://play.picoctf.org/practice?X-Fb-User-Remote-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=X-File-Id] https://play.picoctf.org/practice?X-File-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Filename] https://play.picoctf.org/practice?X-Filename=1
+[2KFound: [Status=200] [Length=2466] [Word=X-File-Resume] https://play.picoctf.org/practice?X-File-Resume=1
+[2KFound: [Status=200] [Length=2466] [Word=X-File-Size] https://play.picoctf.org/practice?X-File-Size=1
+[2KFound: [Status=200] [Length=2466] [Word=X-File-Name] https://play.picoctf.org/practice?X-File-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=X-File-Type] https://play.picoctf.org/practice?X-File-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Firelogger] https://play.picoctf.org/practice?X-Firelogger=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Fireloggerauth] https://play.picoctf.org/practice?X-Fireloggerauth=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Firephp-Version] https://play.picoctf.org/practice?X-Firephp-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Flash-Version] https://play.picoctf.org/practice?X-Flash-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Flx-Consumer-Secret] https://play.picoctf.org/practice?X-Flx-Consumer-Secret=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Flx-Consumer-Key] https://play.picoctf.org/practice?X-Flx-Consumer-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Flx-Redirect-Url] https://play.picoctf.org/practice?X-Flx-Redirect-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Foo] https://play.picoctf.org/practice?X-Foo=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Foo-Bar] https://play.picoctf.org/practice?X-Foo-Bar=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded] https://play.picoctf.org/practice?X-Forwarded=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-By] https://play.picoctf.org/practice?X-Forwarded-By=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-For] https://play.picoctf.org/practice?X-Forwarded-For=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-For-Original] https://play.picoctf.org/practice?X-Forwarded-For-Original=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Port] https://play.picoctf.org/practice?X-Forwarded-Port=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Host] https://play.picoctf.org/practice?X-Forwarded-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Proto] https://play.picoctf.org/practice?X-Forwarded-Proto=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Scheme] https://play.picoctf.org/practice?X-Forwarded-Scheme=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Protocol] https://play.picoctf.org/practice?X-Forwarded-Protocol=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Server] https://play.picoctf.org/practice?X-Forwarded-Server=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Ssl] https://play.picoctf.org/practice?X-Forwarded-Ssl=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarded-Ssl] https://play.picoctf.org/practice?X-Forwarded-Ssl=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forwarder-For] https://play.picoctf.org/practice?X-Forwarder-For=1
+[2KFound: [Status=200] [Length=2466] [Word=X-From] https://play.picoctf.org/practice?X-From=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forward-Proto] https://play.picoctf.org/practice?X-Forward-Proto=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Forward-For] https://play.picoctf.org/practice?X-Forward-For=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Gb-Shared-Secret] https://play.picoctf.org/practice?X-Gb-Shared-Secret=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Geoip-Country] https://play.picoctf.org/practice?X-Geoip-Country=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Helpscout-Event] https://play.picoctf.org/practice?X-Helpscout-Event=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Get-Checksum] https://play.picoctf.org/practice?X-Get-Checksum=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Helpscout-Signature] https://play.picoctf.org/practice?X-Helpscout-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Hgarg-] https://play.picoctf.org/practice?X-Hgarg-=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Host] https://play.picoctf.org/practice?X-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Http-Host-Override] https://play.picoctf.org/practice?X-Http-Host-Override=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Http-Destinationurl] https://play.picoctf.org/practice?X-Http-Destinationurl=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Http-Method] https://play.picoctf.org/practice?X-Http-Method=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Http-Method-Override] https://play.picoctf.org/practice?X-Http-Method-Override=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Http-Path-Override] https://play.picoctf.org/practice?X-Http-Path-Override=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Https] https://play.picoctf.org/practice?X-Https=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Htx-Agent] https://play.picoctf.org/practice?X-Htx-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Huawei-Userid] https://play.picoctf.org/practice?X-Huawei-Userid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Hub-Signature] https://play.picoctf.org/practice?X-Hub-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-If-Unmodified-Since] https://play.picoctf.org/practice?X-If-Unmodified-Since=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Imbo-Test-Config] https://play.picoctf.org/practice?X-Imbo-Test-Config=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Insight] https://play.picoctf.org/practice?X-Insight=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ip] https://play.picoctf.org/practice?X-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ip-Trail] https://play.picoctf.org/practice?X-Ip-Trail=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Iwproxy-Nesting] https://play.picoctf.org/practice?X-Iwproxy-Nesting=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Jphone-Display] https://play.picoctf.org/practice?X-Jphone-Display=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Jphone-Color] https://play.picoctf.org/practice?X-Jphone-Color=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Jphone-Geocode] https://play.picoctf.org/practice?X-Jphone-Geocode=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Jphone-Msname] https://play.picoctf.org/practice?X-Jphone-Msname=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Jphone-Uid] https://play.picoctf.org/practice?X-Jphone-Uid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Json] https://play.picoctf.org/practice?X-Json=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Kaltura-Remote-Addr] https://play.picoctf.org/practice?X-Kaltura-Remote-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Known-Signature] https://play.picoctf.org/practice?X-Known-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Known-Username] https://play.picoctf.org/practice?X-Known-Username=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Litmus] https://play.picoctf.org/practice?X-Litmus=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Machine] https://play.picoctf.org/practice?X-Machine=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Litmus-Second] https://play.picoctf.org/practice?X-Litmus-Second=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Locking] https://play.picoctf.org/practice?X-Locking=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Mandrill-Signature] https://play.picoctf.org/practice?X-Mandrill-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Method-Override] https://play.picoctf.org/practice?X-Method-Override=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Mobile-Gateway] https://play.picoctf.org/practice?X-Mobile-Gateway=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Mobile-Ua] https://play.picoctf.org/practice?X-Mobile-Ua=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Mosso-Dt] https://play.picoctf.org/practice?X-Mosso-Dt=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Moz] https://play.picoctf.org/practice?X-Moz=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Msisdn] https://play.picoctf.org/practice?X-Msisdn=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ms-Policykey] https://play.picoctf.org/practice?X-Ms-Policykey=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Debug] https://play.picoctf.org/practice?X-Myqee-System-Debug=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Hash] https://play.picoctf.org/practice?X-Myqee-System-Hash=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Isadmin] https://play.picoctf.org/practice?X-Myqee-System-Isadmin=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Isrest] https://play.picoctf.org/practice?X-Myqee-System-Isrest=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Pathinfo] https://play.picoctf.org/practice?X-Myqee-System-Pathinfo=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Project] https://play.picoctf.org/practice?X-Myqee-System-Project=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Rstr] https://play.picoctf.org/practice?X-Myqee-System-Rstr=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Myqee-System-Time] https://play.picoctf.org/practice?X-Myqee-System-Time=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Network-Info] https://play.picoctf.org/practice?X-Network-Info=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nfsn-Https] https://play.picoctf.org/practice?X-Nfsn-Https=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ning-Request-Uri] https://play.picoctf.org/practice?X-Ning-Request-Uri=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nokia-Bearer] https://play.picoctf.org/practice?X-Nokia-Bearer=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nokia-Connection-Mode] https://play.picoctf.org/practice?X-Nokia-Connection-Mode=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nokia-Gateway-Id] https://play.picoctf.org/practice?X-Nokia-Gateway-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nokia-Ipaddress] https://play.picoctf.org/practice?X-Nokia-Ipaddress=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nokia-Msisdn] https://play.picoctf.org/practice?X-Nokia-Msisdn=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nokia-Wia-Accept-Original] https://play.picoctf.org/practice?X-Nokia-Wia-Accept-Original=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nokia-Wtls] https://play.picoctf.org/practice?X-Nokia-Wtls=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Nuget-Apikey] https://play.picoctf.org/practice?X-Nuget-Apikey=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Oc-Mtime] https://play.picoctf.org/practice?X-Oc-Mtime=1
+[2KFound: [Status=200] [Length=2466] [Word=Xonnection] https://play.picoctf.org/practice?Xonnection=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Opera-Info] https://play.picoctf.org/practice?X-Opera-Info=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Operamini-Features] https://play.picoctf.org/practice?X-Operamini-Features=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Operamini-Phone] https://play.picoctf.org/practice?X-Operamini-Phone=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Operamini-Phone-Ua] https://play.picoctf.org/practice?X-Operamini-Phone-Ua=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Orchestra-Scheme] https://play.picoctf.org/practice?X-Orchestra-Scheme=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Options] https://play.picoctf.org/practice?X-Options=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Orig-Client] https://play.picoctf.org/practice?X-Orig-Client=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Orange-Id] https://play.picoctf.org/practice?X-Orange-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Original-Host] https://play.picoctf.org/practice?X-Original-Host=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Original-Http-Command] https://play.picoctf.org/practice?X-Original-Http-Command=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Originally-Forwarded-For] https://play.picoctf.org/practice?X-Originally-Forwarded-For=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Originally-Forwarded-Proto] https://play.picoctf.org/practice?X-Originally-Forwarded-Proto=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Original-Remote-Addr] https://play.picoctf.org/practice?X-Original-Remote-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Original-Url] https://play.picoctf.org/practice?X-Original-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Originating-Ip] https://play.picoctf.org/practice?X-Originating-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Original-User-Agent] https://play.picoctf.org/practice?X-Original-User-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Os-Prefs] https://play.picoctf.org/practice?X-Os-Prefs=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Overlay] https://play.picoctf.org/practice?X-Overlay=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Pagelet-Fragment] https://play.picoctf.org/practice?X-Pagelet-Fragment=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Password] https://play.picoctf.org/practice?X-Password=1
+[2KFound: [Status=200] [Length=2466] [Word=Xpdb-Debugger] https://play.picoctf.org/practice?Xpdb-Debugger=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Phabricator-Csrf] https://play.picoctf.org/practice?X-Phabricator-Csrf=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Phpbb-Using-Plupload] https://play.picoctf.org/practice?X-Phpbb-Using-Plupload=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Pjax] https://play.picoctf.org/practice?X-Pjax=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Pjax-Container] https://play.picoctf.org/practice?X-Pjax-Container=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Prototype-Version] https://play.picoctf.org/practice?X-Prototype-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Proxy-Url] https://play.picoctf.org/practice?X-Proxy-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Xproxy] https://play.picoctf.org/practice?Xproxy=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Purpose] https://play.picoctf.org/practice?X-Purpose=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Pswd] https://play.picoctf.org/practice?X-Pswd=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Real-Ip] https://play.picoctf.org/practice?X-Real-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Qafoo-Profiler] https://play.picoctf.org/practice?X-Qafoo-Profiler=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Remote-Addr] https://play.picoctf.org/practice?X-Remote-Addr=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Remote-Protocol] https://play.picoctf.org/practice?X-Remote-Protocol=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Render-Partial] https://play.picoctf.org/practice?X-Render-Partial=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Request] https://play.picoctf.org/practice?X-Request=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Requested-With] https://play.picoctf.org/practice?X-Requested-With=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Request-Timestamp] https://play.picoctf.org/practice?X-Request-Timestamp=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Request-Id] https://play.picoctf.org/practice?X-Request-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Request-Start] https://play.picoctf.org/practice?X-Request-Start=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Response-Format] https://play.picoctf.org/practice?X-Response-Format=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Request-Signature] https://play.picoctf.org/practice?X-Request-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Rest-Password] https://play.picoctf.org/practice?X-Rest-Password=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Rest-Cors] https://play.picoctf.org/practice?X-Rest-Cors=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Rest-Username] https://play.picoctf.org/practice?X-Rest-Username=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Rewrite-Url] https://play.picoctf.org/practice?X-Rewrite-Url=1
+[2KFound: [Status=200] [Length=2466] [Word=Xroxy-Connection] https://play.picoctf.org/practice?Xroxy-Connection=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Sakura-Forwarded-For] https://play.picoctf.org/practice?X-Sakura-Forwarded-For=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Scalr-Auth-Key] https://play.picoctf.org/practice?X-Scalr-Auth-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Scalr-Env-Id] https://play.picoctf.org/practice?X-Scalr-Env-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Scanner] https://play.picoctf.org/practice?X-Scanner=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Scheme] https://play.picoctf.org/practice?X-Scheme=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Scalr-Auth-Token] https://play.picoctf.org/practice?X-Scalr-Auth-Token=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Screen-Height] https://play.picoctf.org/practice?X-Screen-Height=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Screen-Width] https://play.picoctf.org/practice?X-Screen-Width=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Signature] https://play.picoctf.org/practice?X-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Sendfile-Type] https://play.picoctf.org/practice?X-Sendfile-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Serial-Number] https://play.picoctf.org/practice?X-Serial-Number=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Serialize] https://play.picoctf.org/practice?X-Serialize=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Server-Name] https://play.picoctf.org/practice?X-Server-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Server-Id] https://play.picoctf.org/practice?X-Server-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Server-Port] https://play.picoctf.org/practice?X-Server-Port=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Sina-Proxyuser] https://play.picoctf.org/practice?X-Sina-Proxyuser=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Skyfire-Phone] https://play.picoctf.org/practice?X-Skyfire-Phone=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Skyfire-Screen] https://play.picoctf.org/practice?X-Skyfire-Screen=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ssl] https://play.picoctf.org/practice?X-Ssl=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Subdomain] https://play.picoctf.org/practice?X-Subdomain=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Teamsite-Preremap] https://play.picoctf.org/practice?X-Teamsite-Preremap=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Te] https://play.picoctf.org/practice?X-Te=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Timer] https://play.picoctf.org/practice?X-Timer=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Tine20-Jsonkey] https://play.picoctf.org/practice?X-Tine20-Jsonkey=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Test-Session-Id] https://play.picoctf.org/practice?X-Test-Session-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Tine20-Request-Type] https://play.picoctf.org/practice?X-Tine20-Request-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Tomboy-Client] https://play.picoctf.org/practice?X-Tomboy-Client=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Tor] https://play.picoctf.org/practice?X-Tor=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Twilio-Signature] https://play.picoctf.org/practice?X-Twilio-Signature=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ua-Device] https://play.picoctf.org/practice?X-Ua-Device=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ucbrowser-Device-Ua] https://play.picoctf.org/practice?X-Ucbrowser-Device-Ua=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Uidh] https://play.picoctf.org/practice?X-Uidh=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Update-Range] https://play.picoctf.org/practice?X-Update-Range=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Up-Calling-Line-Id] https://play.picoctf.org/practice?X-Up-Calling-Line-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Unique-Id] https://play.picoctf.org/practice?X-Unique-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Uniquewcid] https://play.picoctf.org/practice?X-Uniquewcid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Update] https://play.picoctf.org/practice?X-Update=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Up-Devcap-Iscolor] https://play.picoctf.org/practice?X-Up-Devcap-Iscolor=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Up-Devcap-Screendepth] https://play.picoctf.org/practice?X-Up-Devcap-Screendepth=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Up-Devcap-Screenpixels] https://play.picoctf.org/practice?X-Up-Devcap-Screenpixels=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Upload-Name] https://play.picoctf.org/practice?X-Upload-Name=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Upload-Maxresolution] https://play.picoctf.org/practice?X-Upload-Maxresolution=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Upload-Size] https://play.picoctf.org/practice?X-Upload-Size=1
+[2KFound: [Status=200] [Length=2466] [Word=X-User] https://play.picoctf.org/practice?X-User=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Upload-Type] https://play.picoctf.org/practice?X-Upload-Type=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Up-Subno] https://play.picoctf.org/practice?X-Up-Subno=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Url-Scheme] https://play.picoctf.org/practice?X-Url-Scheme=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Username] https://play.picoctf.org/practice?X-Username=1
+[2KFound: [Status=200] [Length=2466] [Word=X-User-Agent] https://play.picoctf.org/practice?X-User-Agent=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Network-Client-Ip] https://play.picoctf.org/practice?X-Wap-Network-Client-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Verify-Credentials-Authorization] https://play.picoctf.org/practice?X-Verify-Credentials-Authorization=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Varnish] https://play.picoctf.org/practice?X-Varnish=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Clientid] https://play.picoctf.org/practice?X-Wap-Clientid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Gateway] https://play.picoctf.org/practice?X-Wap-Gateway=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Client-Sdu-Size] https://play.picoctf.org/practice?X-Wap-Client-Sdu-Size=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Vodafone-3gpdpcontext] https://play.picoctf.org/practice?X-Vodafone-3gpdpcontext=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Network-Client-Msisdn] https://play.picoctf.org/practice?X-Wap-Network-Client-Msisdn=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Profile] https://play.picoctf.org/practice?X-Wap-Profile=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Proxy-Cookie] https://play.picoctf.org/practice?X-Wap-Proxy-Cookie=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Tod] https://play.picoctf.org/practice?X-Wap-Tod=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Session-Id] https://play.picoctf.org/practice?X-Wap-Session-Id=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wap-Tod-Coded] https://play.picoctf.org/practice?X-Wap-Tod-Coded=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wp-Pjax-Prefetch] https://play.picoctf.org/practice?X-Wp-Pjax-Prefetch=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Whatever] https://play.picoctf.org/practice?X-Whatever=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wp-Nonce] https://play.picoctf.org/practice?X-Wp-Nonce=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ws-Api-Key] https://play.picoctf.org/practice?X-Ws-Api-Key=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Wikimedia-Debug] https://play.picoctf.org/practice?X-Wikimedia-Debug=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Xc-Schema-Version] https://play.picoctf.org/practice?X-Xc-Schema-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Xhprof-Debug] https://play.picoctf.org/practice?X-Xhprof-Debug=1
+[2KFound: [Status=200] [Length=2466] [Word=Xxxxxxxxxxxxxxx] https://play.picoctf.org/practice?Xxxxxxxxxxxxxxx=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Xpid] https://play.picoctf.org/practice?X-Xpid=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Xhr-Referer] https://play.picoctf.org/practice?X-Xhr-Referer=1
+[2KFound: [Status=200] [Length=2466] [Word=Xxx-Real-Ip] https://play.picoctf.org/practice?Xxx-Real-Ip=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Zikula-Ajax-Token] https://play.picoctf.org/practice?X-Zikula-Ajax-Token=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Xmlhttprequest] https://play.picoctf.org/practice?X-Xmlhttprequest=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Zotero-Version] https://play.picoctf.org/practice?X-Zotero-Version=1
+[2KFound: [Status=200] [Length=2466] [Word=X-Ztgo-Bearerinfo] https://play.picoctf.org/practice?X-Ztgo-Bearerinfo=1
+[2KFound: [Status=200] [Length=2466] [Word=Y] https://play.picoctf.org/practice?Y=1
+[2KFound: [Status=200] [Length=2466] [Word=Zotero-Api-Version] https://play.picoctf.org/practice?Zotero-Api-Version=1
+
+[2KFound: [Status=200] [Length=2466] [Word=Zotero-Write-Token] https://play.picoctf.org/practice?Zotero-Write-Token=1
+===============================================================
+Finished
+===============================================================
