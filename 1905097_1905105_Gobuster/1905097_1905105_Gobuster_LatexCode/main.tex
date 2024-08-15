@@ -122,26 +122,26 @@ The cli directory is used for parsing the command line argument and showing outp
     \item \textbf{messageWorker:} It listens for log messages from \textbf{libgobuster.Gobuster} on a channel and prints the log messages based on their levels(debug, error and info).
     \item \textbf{progressWorker:} It uses a ticker to print the progress at regular intervals.
 \end{itemize}  
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{resultWorker.png}
     \caption{resultWorker Function}
     \label{fig: resultWorker}
 \end{figure}
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{errorWorker_messageWorker.png}
     \caption{errorWorker and messageWorker Function}
     \label{fig: errorWorker and messageWorker}
 \end{figure}
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{progressWorker.png}
     \caption{progressWorker Function}
     \label{fig: progressWorker}
 \end{figure}
 The \textbf{Gobuster} function is the main entry point of the CLI. It sets up the environment, initializes \textbf{libgobuster.Gobuster}, and starts goroutines for workers. It first prints the Gobuster version and configuration details. Then it runs the Gobuster scan with the given context, waits for it to complete, and cleans up after.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{Gobuster_cli.png}
     \caption{Gobuster Function}
@@ -149,28 +149,28 @@ The \textbf{Gobuster} function is the main entry point of the CLI. It sets up th
 \end{figure}
 \subsection{libgobuster}
 The libgobuster directory declares the basic interface of our gobuster object. We can see the basic interface of the gobuster object in the libgobuster.go file of the current folder.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{Gobuster_struct.png}
     \caption{Structure of a Gobuster Object}
     \label{fig: Gobuster struct}
 \end{figure}
 The opts parameter defines the mode of operation and the related flags of that mode. Each mode of operation extends this struct to show their outputs.\\
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{Libgobuster_Run.png}
     \caption{Run function of a Gobuster Object}
     \label{fig: Libgobuster Run}
 \end{figure} \\
 The \textbf{Run} function creates a word channel, takes words as inputs and then uses the \textbf{worker} function. In the worker function, the \textbf{processWord} function does all mode specific operations. All modes implement this function differently.\\
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{Libgobuster_Worker.png}
     \caption{Worker function of a Gobuster Object}
     \label{fig: Libgobuster Worker}
 \end{figure} \\
 Besides, in the \textbf{http.go} file in this folder, an http connection is set up to send and receive data from the target url.\\
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{HTTP_Connection.png}
     \caption{Setting up an http connection}
@@ -181,7 +181,7 @@ This mode is used to find hidden directories in a website. If we go to the file 
 \begin{itemize}
     \item It constructs the full URL by appending the given word from the word list to the base URL, like \textbf{example.com/word} format. It ensures that the base URL ends with a slash and removes any leading slashes from the word.
     \item It allows for multiple attempts in case of timeout errors based on the values of the flags.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobusterdir_Constructing_Url.png}
         \caption{Constructing URL in Directory mode}
@@ -189,7 +189,7 @@ This mode is used to find hidden directories in a website. If we go to the file 
     \end{figure}
     \item Then the function sends an http request using \textbf{d.http.Request}.
     \item As a result, we get status code, size of response from the return value, and the result is sent to the result channel.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobusterdir_Http_Request.png}
         \caption{Sending an http request in directory mode}
@@ -199,7 +199,7 @@ This mode is used to find hidden directories in a website. If we go to the file 
 \subsection{gobusterdns}
 The DNS mode is used to find subdomains of a website. In DNS mode,
 the tool appends words in front of the domain name and sends DNS queries to verify which subdomains exist. If we go to the file \textbf{gobusterdns.go} and view the \textbf{processWord} function, then we can see that it does the following:
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{Gobusterdns_ProcessWord.png}
     \caption{processWord function in DNS mode}
@@ -215,14 +215,14 @@ the tool appends words in front of the domain name and sends DNS queries to veri
 For looking for sites that are hosted virtually by the same website, we send http requests to the same website with different hostname in header. If we go to the file \textbf{gobustervhost.go} and view the \textbf{processWord} function, then we can see that it does the following:
 \begin{itemize}
     \item First it constructs the subdomain name from the given word file.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobustervhost_Construct_Subdomain.png}
         \caption{Constructing Subdomain in vhost mode}
         \label{fig: Gobustervhost Constructing Subdomain}
     \end{figure}
     \item Then it sends an http request to the subdomain and gets response body, response size and status code as a response.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobustervhost_Get_Response.png}
         \caption{Get Response in vhost mode}
@@ -230,7 +230,7 @@ For looking for sites that are hosted virtually by the same website, we send htt
     \end{figure}
     \item Now we need to see if the response body is the same as default response body or error response body. So, we send an http request to the domain name to get \textbf{normal body}. We also send abnormal request using a \textbf{uuid generator} and save the response body as \textbf{abnormal body}.
     \item Finally, we compare our response with normal and abnormal body. If there’s no match with either, we can be sure that the response body is from a different website. Thus, we get a new website hosted by the base domain.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobustervhost_Compare_Response.png}
         \caption{Compare Responses in vhost mode}
@@ -242,14 +242,14 @@ Fuzzing is the process of finding different parameters on a website.
 In FUZZ mode, we can insert content from wordlists into different places of a website and check the responses to understand which parameters are valid for that website. If we go to the file \textbf{gobusterfuzz.go} and view the \textbf{processWord} function, then we can see that it does the following:
 \begin{itemize}
     \item First, the function replaces the \textbf{FuzzKeyword} (a placeholder for the fuzzed payload) in the target URL with the current word from the wordlist.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobusterfuzz_Construct_Url.png}
         \caption{Constructing URL in fuzz mode}
         \label{fig: Gobusterfuzz Construct URL}
     \end{figure}
     \item Then it sends an http request to the target URL.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobusterfuzz_Send_Request.png}
         \caption{Sending request in fuzz mode}
@@ -262,7 +262,7 @@ This mode is used to find publicly available gcs buckets. If we go to the file \
 \begin{itemize}
     \item First, the function constructs the target URL with the current word from the wordlist, like this \textbf{https://storage.googleapis.com/storage/v1/b/bucket/o} format.
     \item Then it sends an http request to the target URL.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobustergcs_processWord.png}
         \caption{Constructing URL and getting response in gcs mode}
@@ -275,7 +275,7 @@ This mode works almost identically to gcs. The difference is in the url that is 
 \begin{itemize}
     \item First, the function constructs the target URL with the current word from the wordlist, like this \textbf{https://bucket.s3.amazonaws.com/} format.
     \item Then it sends an http request to the target URL.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobusters3_processWord.png}
         \caption{Constructing URL and getting response in s3 mode}
@@ -288,7 +288,7 @@ Tftp servers are a type of ftp servers, but with less protection. Tftp servers d
 \begin{itemize}
     \item First, the client is connected to the given server address.
     \item Then we enumerate our word file for words and send an http request to the server to find the target file with the same name there.
-    \begin{figure}[!htbp]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.4\textwidth]{Gobustertftp_processWord.png}
         \caption{Connecting to server and getting response in tftp mode}
@@ -799,7 +799,7 @@ Different parts of the command are explained below:
     \item: fuzz2.txt: The output will be written to fuzz2.txt file
 \end{itemize}
 The output is shown below:
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{Fuzz_Output.png}
     \caption{Output of the fuzz mode}
@@ -807,7 +807,7 @@ The output is shown below:
 \end{figure}
 \newline
 We can select a link from the file and view the contents of the link:\\
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{Fuzz_Output_Link.png}
     \caption{Output result of the fuzz mode}
@@ -829,7 +829,7 @@ Different parts of the command are explained below:
     \item: gcs1.txt: The output will be written to gcs1.txt file
 \end{itemize}
 The output is shown below:
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Output.png}
     \caption{Output of the gcs mode}
@@ -837,7 +837,7 @@ The output is shown below:
 \end{figure}
 \newline
 If we paste this link, we will get an output like the following:
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Output_MediaLink.png}
     \caption{Output Media Link of the gcs mode}
@@ -845,7 +845,7 @@ If we paste this link, we will get an output like the following:
 \end{figure}
 \newline
 The \textbf{mediaLink} part contains the link for the file. All files are not accessible here. So, if we want to access the links, we may get a status 403 code.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Output_Fail.png}
     \caption{Failed Output of the gcs mode}
@@ -861,35 +861,35 @@ To find out which links are accessible, we write a python file named \textbf{fin
     \item If we get a status response 200, we write the \textbf{link}, \textbf{mediaLink} and \textbf{File type} to \textbf{working\_links.txt} file.
     \item Thus we get all the working media links in \textbf{working\_links.txt} file.
 \end{itemize}
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Output_Formatting_Code.png}
     \caption{Code for formatting the gcs output}
     \label{fig: gcs Output Formatting Code}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Success_Links_Finding_Code.png}
     \caption{Code for finding available medias from the formatted gcs output}
     \label{fig: gcs Success Links Finding Code}
 \end{figure}
 The formatted links and found available media links are given below from the output files.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Output_Formatted_Links.png}
     \caption{Links after formatting the gcs output}
     \label{fig: gcs Output Formatted Links}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Success_Links.png}
     \caption{Available medias from the formatted gcs output}
     \label{fig: gcs Success Links}
 \end{figure}
 If we paste the available media links, we can find the available media files. The \textbf{output files}, python code and necessary files are given in the following github link: \cite{github_output}
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{gcs_Output_Files.png}
     \caption{Available medias files from the gcs output}
@@ -910,7 +910,7 @@ Different parts of the command are explained below:
     \item: s34.txt: The output will be written to s34.txt file
 \end{itemize}
 The output for this command is given below:
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{s3_Output.png}
     \caption{Output of the s3 mode}
@@ -918,7 +918,7 @@ The output for this command is given below:
 \end{figure}
 \newline
 Most of the links are not accessible. They show the code \textbf{AccessDenied}.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{s3_Output_Fail.png}
     \caption{Output Access Denied the s3 mode}
@@ -926,7 +926,7 @@ Most of the links are not accessible. They show the code \textbf{AccessDenied}.
 \end{figure}
 \newline
 We found a link that gives us two links.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{s3_Output_Success.png}
     \caption{Output Success for the s3 mode}
@@ -934,7 +934,7 @@ We found a link that gives us two links.
 \end{figure}
 \newline
 We can view the files by putting the file name after the link separated by a slash. Thus we can get publicly available amazon s3 bucket files.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{s3_Output_Success_File.png}
     \caption{Output File for the s3 mode}
@@ -943,18 +943,16 @@ We can view the files by putting the file name after the link separated by a sla
 \newline
 The files that we found are given in the github link \cite{github_output}.
 \subsection{TFTP}
-TFTP (Trivial File Transfer Protocol) is a simple file transfer protocol. It does not have any authentication protocol like ftp servers. So, it is not suitable for remote networks. Rather, it is set up in a local environment. We set up a tftp server on localhost in \textbf{ubuntu}(as we faced some problems setting it up on kali linux), following this link \cite{tftp}.
-{https://www.addictivetips.com/ubuntu-linux-tips/
-set-up-a-tftp-server-on-ubuntu-server/}.\\
+TFTP (Trivial File Transfer Protocol) is a simple file transfer protocol. It does not have any authentication protocol like ftp servers. So, it is not suitable for remote networks. Rather, it is set up in a local environment. We set up a tftp server on localhost in \textbf{ubuntu}(as we faced some problems setting it up on kali linux), following this link \cite{tftp}.\\
 The tftp server was set up on the directory \textbf{/tftpboot}. It had the following files:
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{tftp_Server_Files.png}
     \caption{Files in the tftp server}
     \label{fig: tftp Server Files}
 \end{figure}
 Then we used gobuster to enumerate over the files and find any file mentioned in the \textbf{tftpwords.txt} file. The contents of the word file is given below:
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{tftp_Word_File.png}
     \caption{Word File for the tftp mode}
@@ -971,7 +969,7 @@ Different parts of the command are explained below:
     \item -s: Link to the tftp server
 \end{itemize}
 As we had to set up gobuster on ubuntu for this mode and ubuntu does not support the latest gobuster version, so we built an executable file to run gobuster from the github code. For this reason, we need to run the executable file each time using \textbf{./gobuster}. As the word file contains abc.txt, we found the abc.txt file. But no.txt file was not found as it was not in the word file. Thus, we can find files on our tftp server using gobuster.
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{tftp_Output.png}
     \caption{Output for the tftp mode}
